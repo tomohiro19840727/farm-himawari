@@ -16,12 +16,12 @@ const Footer = () => {
                     <path d="M96 0V47L48 94H0V47L48 0H96Z" />
                   </svg>
     
-                  Takahasi-Agri-Culture-Farm
+                  FARM-ひまわり
                 </a>
               </div>
               
     
-              <p class="mb-6 text-gray-500 sm:pr-8">Filler text is dummy text which has no meaning however looks very similar to real text</p>
+              <p class="mb-6 text-gray-500 sm:pr-8"></p>
     
               
               <div class="flex gap-4">
@@ -59,19 +59,7 @@ const Footer = () => {
               <nav class="flex flex-col gap-4">
                 <div>
                   <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Overview</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Solutions</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Pricing</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Customers</a>
-                </div>
+                </div>         
               </nav>
             </div>
     
@@ -83,18 +71,6 @@ const Footer = () => {
               <nav class="flex flex-col gap-4">
                 <div>
                   <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Investor Relations</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Jobs</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Press</a>
                 </div>
     
                 <div>
@@ -114,10 +90,6 @@ const Footer = () => {
                 </div>
     
                 <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Documentation</a>
-                </div>
-    
-                <div>
                   <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Chat</a>
                 </div>
     
@@ -127,29 +99,9 @@ const Footer = () => {
               </nav>
             </div>
     
-    
-            
-            <div>
-              <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Legal</div>
-    
-              <nav class="flex flex-col gap-4">
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Terms of Service</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Privacy Policy</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Cookie settings</a>
-                </div>
-              </nav>
-            </div>
-    
           </div>
     
-          <div class="border-t py-8 text-center text-sm text-gray-400">© 2021 - Present Flowrift. All rights reserved.</div>
+          <div class="border-t py-8 text-center text-sm text-gray-400">© 2024 - Present Tomohiro Kuriki. </div>
         </div>
       </div>
     </footer>
