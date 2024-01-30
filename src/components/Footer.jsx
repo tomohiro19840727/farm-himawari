@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -58,7 +59,7 @@ const Footer = () => {
     
               <nav class="flex flex-col gap-4">
                 <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Overview</a>
+                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">主な作物</a>
                 </div>         
               </nav>
             </div>
@@ -70,11 +71,7 @@ const Footer = () => {
     
               <nav class="flex flex-col gap-4">
                 <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
+                  <Link to="/companyoverview" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">会社概要</Link>
                 </div>
               </nav>
             </div>
@@ -82,20 +79,11 @@ const Footer = () => {
     
             
             <div>
-              <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Support</div>
-    
+              <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Support</div>   
               <nav class="flex flex-col gap-4">
                 <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Chat</a>
-                </div>
-    
-                <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">FAQ</a>
-                </div>
+                  <Link to="/contact" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">お問い合わせ</Link>
+                </div>          
               </nav>
             </div>
     
