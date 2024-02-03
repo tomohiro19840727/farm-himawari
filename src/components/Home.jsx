@@ -1,12 +1,16 @@
 import React, { useEffect } from 'react'
 import Gallery from './Gallery'
-import Search from './Search'
-import Team from './Team'
 import Help from './Help'
 import Footer from './Footer'
 import Section from './Section'
+import { useMediaQuery } from 'react-responsive'
+import MobileSection from './MobileSection'
+import MobileGallery from './MobileGallery'
+import MobileHelp from './MobileHelp'
 
 const Home = () => {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+
   useEffect(() => {
     const targets = document.getElementsByClassName("fade");
     const observer = new IntersectionObserver((entries, observer) => {
@@ -34,16 +38,23 @@ const Home = () => {
     <div className='fade'>
 
      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-       <Section />
+     {isMobile ? ( 
+          <MobileSection />
+          )  : 
+          (
+            <Section  /> )}
     </div>
-    <Gallery />
+    {isMobile ? ( 
+          <MobileGallery />
+          )  : 
+          (
+            <Gallery  /> )}
     
-    {/* <Search /> */}
-     
-     {/* <Team /> */}
-         
-    <Help />
- 
+    {isMobile ? ( 
+          <MobileHelp />
+          )  : 
+          (
+            <Help  /> )}
      <Footer />
     </div>
     </>

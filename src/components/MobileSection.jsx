@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react'
 import videoBg1 from "../assets/fields_-_41093 (540p).mp4";
 import videoBg2 from "../assets/tractor_-_43044 (720p).mp4";
 import videoBg3 from "../assets/fertilizer_-_114347 (720p).mp4";
-import "./Section.css"
+import "./MobileSection.css"
 import  {Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -13,7 +13,7 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 
 
-const Section = () => {
+const MobileSection = () => {
   const aboutRef1 = useRef(null);
   const aboutRef2 = useRef(null);
  
@@ -38,6 +38,7 @@ const Section = () => {
    observer.observe(aboutRef1.current);
    observer.observe(aboutRef2.current);
    
+ 
    return () => {
      observer.disconnect();
    };
@@ -59,37 +60,35 @@ const Section = () => {
   className="mySwiper absolute inset-0 h-full w-full"
 >
 <SwiperSlide>
-        <div className="video-container">
+        <div className="video-onecontainer">
           <video src={videoBg1} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
-            <h1 ref={aboutRef1} className="mb-10 text-4xl font-bold text-white sm:text-5xl md:text-5xl animate-delayed-tracking-in-expand">Welcome to</h1>
-            <h2 ref={aboutRef2} className="text-3xl font-bold text-white sm:text-4xl md:text-6xl    animate-delayed-tracking-in-expand">FARMひまわり</h2>
+            <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-gray-300 sm:text-5xl md:text-5xl animate-delayed-tracking-in-expand">Welcome to</h1>
+            <h2 ref={aboutRef2} className="text-2xl font-bold text-green-300    animate-delayed-tracking-in-expand">FARMひまわり</h2>
           </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="video-container">
+        <div className="video-onecontainer">
           <video src={videoBg2} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
-            <h1 ref={aboutRef1} className="mb-10 text-4xl font-bold text-white sm:text-5xl md:text-5xl animate-delayed-tracking-in-expand">Welcome to</h1>
-            <h2 ref={aboutRef2} className="text-3xl font-bold text-white sm:text-4xl md:text-6xl animate-delayed-tracking-in-expand">FARMひまわり</h2>
+            <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-white  animate-delayed-tracking-in-expand">Welcome to</h1>
+            <h2 ref={aboutRef2} className="text-2xl font-bold text-green-300  animate-delayed-tracking-in-expand">FARMひまわり</h2>
           </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="video-container">
+        <div className="video-onecontainer">
           <video src={videoBg3} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
-            <h1 ref={aboutRef1} className="mb-10 text-4xl font-bold text-white sm:text-5xl md:text-5xl animate-delayed-tracking-in-expand">Welcome to</h1>
-            <h2 ref={aboutRef2} className="text-3xl font-bold text-white sm:text-4xl md:text-6xl animate-delayed-tracking-in-expand">FARMひまわり</h2>
+            <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-white animate-delayed-tracking-in-expand">Welcome to</h1>
+            <h2 ref={aboutRef2} className="text-2xl font-bold text-green-300  animate-delayed-tracking-in-expand">FARMひまわり</h2>
           </div>
         </div>
       </SwiperSlide>
 </Swiper>
 </section>
-
-
   )
 }
 
-export default Section
+export default MobileSection

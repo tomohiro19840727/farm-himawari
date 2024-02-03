@@ -10,16 +10,8 @@ const Header = () => {
               <path d="M96 0V47L48 94H0V47L48 0H96Z" />
             </svg>
     
-            <h1 className='font-bold'>FARM-ひまわり</h1>
+            <h1 className='font-bold'>FARMひまわり</h1>
           </a>
-
-{/* <a href="/" class="text-black-800 inline-flex items-center gap-6 text-3xl font-bold md:text-4xl" aria-label="logo">
-  <img src="/img/DALL·E 2024-01-30 14.36.29 - Create a logo for an innovative farming company that combines agriculture and technology, focusing on rice production. The logo should symbolize the b.png" alt="FARM-ひまわり Logo" class="h-auto w-12 text-indigo-500" />
-  <h1 className='font-bold'>FARM-ひまわり</h1>
-</a> */}
-
-          
-    
           
           <nav class="hidden gap-12 lg:flex">
           <Link to="/" class="relative px-5 py-3 overflow-hidden font-medium text-gray-600 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
