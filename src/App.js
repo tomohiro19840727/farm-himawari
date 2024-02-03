@@ -9,6 +9,10 @@ import Contact from './components/Contact';
 import { useMediaQuery } from 'react-responsive';
 import MobileHeader from './components/MobileHeader';
 import Menu from './components/Menu';
+import MobileCareers from './components/MobileCareers';
+import Rice from './components/Rice';
+import Wheat from './components/Wheat';
+import Soy from './components/Soy';
 
 
 
@@ -40,7 +44,7 @@ function App() {
   return (
     <>
    <Router>
-      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div class="mx-auto  bg-gradient-to-r from-transparent via-green-200 to-yellow-200">
       {isMobile ? ( 
           <MobileHeader />
           )  : 
@@ -50,9 +54,20 @@ function App() {
   <Routes>
     <Route  path="/companyoverview" element={<CompanyOverview />} />
     <Route  path="/" element={<Home />} />
-    <Route  path="/careers" element={<Careers />} />
+    <Route  path="/careers" element={
+      <div>
+     {isMobile ? ( 
+       <MobileCareers />
+       )  : 
+       (
+         <Careers /> )}
+         </div>
+    } />
     <Route  path="/contact" element={<Contact />} />
     <Route  path="/menu" element={<Menu />} />
+    <Route  path="/rice" element={<Rice />} />
+    <Route  path="/wheat" element={<Wheat />} />
+    <Route  path="/soy" element={<Soy />} />
    
    
   </Routes>

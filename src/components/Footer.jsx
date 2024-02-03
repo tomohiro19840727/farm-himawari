@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer class="bg-white">
+    <footer class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200">
 
     
       <div class="pt-12 lg:pt-16">

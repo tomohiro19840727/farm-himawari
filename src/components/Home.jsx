@@ -7,6 +7,7 @@ import { useMediaQuery } from 'react-responsive'
 import MobileSection from './MobileSection'
 import MobileGallery from './MobileGallery'
 import MobileHelp from './MobileHelp'
+import Products from './Products'
 
 const Home = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -35,7 +36,7 @@ const Home = () => {
 
   return (
     <>
-    <div className='fade'>
+    <div className='fade bg-gradient-to-r from-transparent via-green-200 to-yellow-200'>
 
      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
      {isMobile ? ( 
@@ -49,6 +50,8 @@ const Home = () => {
           )  : 
           (
             <Gallery  /> )}
+
+          <Products />  
     
     {isMobile ? ( 
           <MobileHelp />

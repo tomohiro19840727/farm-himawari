@@ -60,7 +60,7 @@
   
       <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8">
        
-        <div class="flex flex-col overflow-hidden rounded-lg border bg-white">
+        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10">
           <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/FK+_50A0694_TP_V4.jpg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </a>
@@ -70,13 +70,13 @@
               <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">四季を通じた自然の楽園</a>
             </h2>
   
-            <p class="mb-8 text-gray-500 font-bold">当農場がある蘭越町は、海、山、川といった自然環境に恵まれた町。春から秋は釣りやサーフィン、バーベキューやキャンプを。<br/><br/>冬季はニセコ等でウィンタースポーツ等多彩なアクティビティを楽しむことができます。</p>
+            <p class="mb-8 text-gray-500 font-bold">春から秋は釣りやサーフィン、バーベキューやキャンプを。<br/><br/>冬季はニセコ等でウィンタースポーツ等多彩なアクティビティを楽しむことができます。</p>
           </div>
         </div>
        
   
        
-        <div class="flex flex-col overflow-hidden rounded-lg border bg-white">
+        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10">
           <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/IMG_7170.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </a>
@@ -92,7 +92,7 @@
        
   
        
-        <div class="flex flex-col overflow-hidden rounded-lg border bg-white">
+        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10">
           <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/JUNtexture1123936_TP_V4.jpg" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </a>
@@ -108,7 +108,7 @@
        
   
         
-        <div class="flex flex-col overflow-hidden rounded-lg border bg-white">
+        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10">
           <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/domain458A0453_TP_V4.jpg" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </a>

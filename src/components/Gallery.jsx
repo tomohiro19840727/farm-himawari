@@ -2,7 +2,8 @@ import React from 'react'
 
 const Gallery = () => {
   return (
-    <div class="bg-white py-12 mt-20">
+    <>
+    <div class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-12 mt-20">
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
       <h2 class=" text-center  font-bold text-gray-800  text-3xl mb-10">デジタルの革新が土地を目覚めさせ、命の息吹をデータの脈動と共鳴させる! </h2>
       <p className='text-center mb-20 font-serif text-xl font-bold'>先端技術を農業に取り入れることで、伝統的な米作りに新しい息吹を吹き込んでいます。<br />
@@ -56,6 +57,7 @@ const Gallery = () => {
       </div>
     </div>
   </div>
+    </>
   )
 }
 
