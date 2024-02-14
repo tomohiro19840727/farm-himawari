@@ -1,15 +1,37 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Gallery = () => {
+
+  useEffect(() => {
+    const targets = document.getElementsByClassName("fade");
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+        } else {
+            entry.target.classList.remove("active");
+          }
+        });
+      });
+  
+      Array.from(targets).forEach((target) => {
+        observer.observe(target);
+      });
+  
+      return () => {
+        observer.disconnect();
+      };
+    }, []);
+
   return (
     <>
-    <div class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-12 mt-20">
-    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-12 mt-20 fade">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8 fade">
       <h2 class=" text-center  font-bold text-gray-800  text-3xl mb-10">デジタルの革新が土地を目覚めさせ、命の息吹をデータの脈動と共鳴させる! </h2>
       <p className='text-center mb-20 font-serif text-xl font-bold'>先端技術を農業に取り入れることで、伝統的な米作りに新しい息吹を吹き込んでいます。<br />
       私たちの米は、最新技術と伝統的な農法が融合し、品質と味に妥協はありません!</p>
   
-      <div class="mb-4 grid grid-cols-2 gap-4 sm:grid-cols-3 md:mb-8 md:grid-cols-4 md:gap-6 xl:gap-8">
+      <div class="mb-4 grid grid-cols-2 gap-4 sm:grid-cols-3 md:mb-8 md:grid-cols-4 md:gap-6 xl:gap-8 fade">
         
         <a href="#" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
           <img src="/img/tanbotohatake_TP_V4.jpg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />

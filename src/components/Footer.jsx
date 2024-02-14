@@ -1,10 +1,32 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+
+  useEffect(() => {
+    const targets = document.getElementsByClassName("fade");
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+        } else {
+            entry.target.classList.remove("active");
+          }
+        });
+      });
+  
+      Array.from(targets).forEach((target) => {
+        observer.observe(target);
+      });
+  
+      return () => {
+        observer.disconnect();
+      };
+    }, []);
+
   return (
-    <footer class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200">
-      <div class="pt-12 lg:pt-16">
+    <footer class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 fade">
+      <div class="pt-12 lg:pt-16 fade">
         <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div class="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
             <div class="col-span-full lg:col-span-2">
@@ -13,7 +35,6 @@ const Footer = () => {
                   <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-5 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M96 0V47L48 94H0V47L48 0H96Z" />
                   </svg>
-    
                   高橋Agriculture・Farm
                 </a>
               </div>

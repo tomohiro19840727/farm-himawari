@@ -16,6 +16,27 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 const Section = () => {
   const aboutRef1 = useRef(null);
   const aboutRef2 = useRef(null);
+
+  useEffect(() => {
+    const targets = document.getElementsByClassName("fade");
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+        } else {
+            entry.target.classList.remove("active");
+          }
+        });
+      });
+  
+      Array.from(targets).forEach((target) => {
+        observer.observe(target);
+      });
+  
+      return () => {
+        observer.disconnect();
+      };
+    }, []);
  
  useEffect(() => {
    const options = {
@@ -44,7 +65,7 @@ const Section = () => {
  }, []);
 
   return (
-<section class="h-full relative flex flex-4 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg ">
+<section class="h-full relative flex flex-4 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg fade">
 <Swiper modules={[Navigation, Pagination, Autoplay]}
   spaceBetween={30}
   centeredSlides={true}

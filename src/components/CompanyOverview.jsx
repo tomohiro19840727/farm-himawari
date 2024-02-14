@@ -51,21 +51,21 @@
     <div cla5l0pss="bg-white py-6 sm:py-8 lg:py-12 fade">
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
       
-      <div class="mb-10 md:mb-16">
+      <div class="mb-10 md:mb-16 fade">
         <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">海も山も川もある美しい町の農場です！</h2>
   
         <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg font-bold">北海道南西部、函館本線が町の中央を通る蘭越町(らんこしちょう)に私たちの農場、<br/>「株式会社Farm・ひまわり」はあります。<br/>町全体に自然があふれ、海・山・川すべての恵みが豊かなことが蘭越町の特徴です！！</p>
       </div>
       
   
-      <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8">
+      <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8 fade">
        
-        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10">
+        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10 fade">
           <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/FK+_50A0694_TP_V4.jpg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </a>
   
-          <div class="flex flex-1 flex-col p-4 sm:p-6">
+          <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
             <h2 class="mb-2 text-lg font-semibold text-gray-800">
               <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">四季を通じた自然の楽園</a>
             </h2>
@@ -76,12 +76,12 @@
        
   
        
-        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10">
+        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10 fade">
           <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/IMG_7170.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </a>
   
-          <div class="flex flex-1 flex-col p-4 sm:p-6">
+          <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
             <h2 class="mb-2 text-lg font-semibold text-gray-800">
               <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">春から秋の農業革新</a>
             </h2>
@@ -92,12 +92,12 @@
        
   
        
-        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10">
+        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10 fade">
           <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/JUNtexture1123936_TP_V4.jpg" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </a>
   
-          <div class="flex flex-1 flex-col p-4 sm:p-6">
+          <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
             <h2 class="mb-2 text-lg font-semibold text-gray-800">
               <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">清流が育む質の良いお米</a>
             </h2>
@@ -108,12 +108,12 @@
        
   
         
-        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10">
+        <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10 fade">
           <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/domain458A0453_TP_V4.jpg" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </a>
   
-          <div class="flex flex-1 flex-col p-4 sm:p-6">
+          <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
             <h2 class="mb-2 text-lg font-semibold text-gray-800">
               <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">待遇改善と拡大への道</a>
             </h2>
@@ -126,9 +126,9 @@
     </div>
   </div>
 
-  <div className="max-w-7xl mx-auto px-4 py-8 flex flex-wrap">
+  <div className="max-w-7xl mx-auto px-4 py-8 flex flex-wrap fade">
   {/* 会社概要 */}
-  <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+  <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0 fade">
     <h1 className="text-2xl font-bold mb-4">企業情報</h1>
     <div className="mb-8">
       <h2 className="text-xl font-semibold mb-2">会社概要</h2>
@@ -145,8 +145,8 @@
   </div>
 
   {/* グループ会社と主な取引先 */}
-  <div className="w-full lg:w-1/2 px-4">
-    <div className="mb-8">
+  <div className="w-full lg:w-1/2 px-4 fade">
+    <div className="mb-8 fade">
       <h2 className="text-xl font-semibold mb-2">グループ会社</h2>
       <p><strong>名称:</strong> 株式会社クフラス</p>
       <p><strong>設立:</strong> 2020年4月</p>
@@ -156,7 +156,7 @@
       <p><a href="http://www.kufuras.co.jp" className="text-blue-600 hover:underline">www.kufuras.co.jp</a></p>
     </div>
 
-    <div>
+    <div className='fade'>
       <h2 className="text-xl font-semibold mb-2">主な取引先</h2>
       <ul className="list-disc pl-5">
         <li>函館米穀</li>

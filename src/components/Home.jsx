@@ -36,9 +36,9 @@ const Home = () => {
 
   return (
     <>
-    <div className='fade bg-gradient-to-r from-transparent via-green-200 to-yellow-200'>
+    <div className='fade bg-gradient-to-r from-transparent via-green-200 to-yellow-200 fade'>
 
-     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+     <div class="mx-auto max-w-screen-2xl px-4 md:px-8 fade">
      {isMobile ? ( 
           <MobileSection />
           )  : 
