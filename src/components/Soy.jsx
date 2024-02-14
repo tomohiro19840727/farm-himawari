@@ -15,6 +15,10 @@ const Soy = () => {
  const aboutRef2 = useRef(null);
 
  useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
+ useEffect(() => {
   const targets = document.getElementsByClassName("fade");
   const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {

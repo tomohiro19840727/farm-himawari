@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
 import videoBg1 from "../assets/43368_1280x720.mp4";
 import videoBg2 from "../assets/grain_-_121876 (720p) (1).mp4";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const Products = () => {
+
 
   useEffect(() => {
     const targets = document.getElementsByClassName("fade");

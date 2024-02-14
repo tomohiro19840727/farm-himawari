@@ -1,6 +1,9 @@
  import React, { useEffect } from 'react'
  
  const CompanyOverview = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     const targets = document.getElementsByClassName("fade");
@@ -70,7 +73,7 @@
               <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">四季を通じた自然の楽園</a>
             </h2>
   
-            <p class="mb-8 text-gray-500 font-bold">春から秋は釣りやサーフィン、バーベキューやキャンプを。<br/><br/>冬季はニセコ等でウィンタースポーツ等多彩なアクティビティを楽しむことができます。</p>
+            <p class="mb-8 text-gray-500 font-bold">春から秋は釣りやサーフィン、バーベキューやキャンプを。<br/>冬季はニセコ等でウィンタースポーツ等多彩なアクティビティを楽しむことができます。</p>
           </div>
         </div>
        

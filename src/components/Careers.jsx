@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 const Careers = () => {
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     const targets = document.getElementsByClassName("fade");
     const observer = new IntersectionObserver((entries, observer) => {
       entries.forEach((entry) => {
@@ -28,7 +32,7 @@ const Careers = () => {
   return (
     <>
       <div className="bg-white pb-6 sm:pb-8 lg:pb-12 fade">
-        <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div className="mx-auto max-w-screen-2xl px-4 md:px-8 fade">
           <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row mb-20">
             <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
               <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-4xl">株式会社 高橋Agriculture・Farm<br />採用情報</h1>
@@ -60,7 +64,7 @@ const Careers = () => {
               {/* Add more sections for '勤務地', '雇用形態', '雇用期間', etc. */}
               {/* Ensure you break down the information into sub-sections for readability */}
             </div>
-            <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
+            <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12 fade">
               <img
                 src="/img/IMG_7169.JPG"
                 loading="lazy"
@@ -69,16 +73,16 @@ const Careers = () => {
               />
             </div>
           </section>
-          <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row mb-20">
+          <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row mb-20 fade">
           <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
               <img
-                src="/img/IMG_7169.JPG"
+                src="/img/mitte102520946_TP_V4.jpg"
                 loading="lazy"
                 alt="Farm Image"
                 className="h-full w-full object-cover object-center"
               />
             </div>
-            <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
+            <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24 fade">
              
               <h2 className="mb-4 text-2xl font-bold text-black">勤務地</h2>
               <p className="mb-4 text-gray-600">北海道磯谷郡蘭越町字初田172-1 <br/>
@@ -116,8 +120,8 @@ const Careers = () => {
            
           </section>
 
-          <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row mb-20">
-            <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
+          <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row mb-20 fade">
+            <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24 fade">
               <h2 className="mb-4 text-2xl font-bold text-black">給与</h2>
               <div className="mb-4">
                 <ul className="list-disc list-inside text-gray-600">
@@ -150,9 +154,9 @@ const Careers = () => {
                 </ul>
               </div>
             </div>
-            <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
+            <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12 fade">
               <img
-                src="/img/IMG_7169.JPG"
+                src="/img/PAK13_inakanotanbo20130812_TP_V4.jpg"
                 loading="lazy"
                 alt="Farm Image"
                 className="h-full w-full object-cover object-center"
@@ -160,16 +164,16 @@ const Careers = () => {
             </div>
           </section>
 
-          <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
-          <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
+          <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row fade">
+          <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12 fade">
               <img
-                src="/img/IMG_7169.JPG"
+                src="/img/mitte82028_TP_V4.jpg"
                 loading="lazy"
                 alt="Farm Image"
                 className="h-full w-full object-cover object-center"
               />
             </div>
-            <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
+            <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24 fade">
               <h2 className="mb-4 text-2xl font-bold text-black">待遇</h2>
               <div className="mb-4">
                 <ul className="list-disc list-inside text-gray-600">

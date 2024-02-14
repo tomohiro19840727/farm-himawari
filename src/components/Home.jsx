@@ -13,6 +13,10 @@ const Home = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     const targets = document.getElementsByClassName("fade");
     const observer = new IntersectionObserver((entries, observer) => {
       entries.forEach((entry) => {
