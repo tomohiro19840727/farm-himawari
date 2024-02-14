@@ -125,6 +125,51 @@
       </div>
     </div>
   </div>
+
+  <div className="max-w-7xl mx-auto px-4 py-8 flex flex-wrap">
+  {/* 会社概要 */}
+  <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+    <h1 className="text-2xl font-bold mb-4">企業情報</h1>
+    <div className="mb-8">
+      <h2 className="text-xl font-semibold mb-2">会社概要</h2>
+      <p><strong>名称:</strong> 高橋Agriculture・Farm</p>
+      <p><strong>代表者:</strong> 代表取締役 合田 高丸</p>
+      <p><strong>設立:</strong> 1971年4月</p>
+      <p><strong>資本金:</strong> 500万円</p>
+      <p><strong>所在地:</strong> 007-0825 北海道札幌市東区東雁来5条1丁目4-26</p>
+      <p><strong>TEL:</strong> 011-789-0300　<strong>FAX:</strong> 011-789-0301</p>
+      <p><strong>スタッフ数:</strong> 10名</p>
+      <p><strong>決算期:</strong> 2月</p>
+      <p><strong>取引銀行:</strong> 北洋銀行伏古支店　北海道銀行川沿支店</p>
+    </div>
+  </div>
+
+  {/* グループ会社と主な取引先 */}
+  <div className="w-full lg:w-1/2 px-4">
+    <div className="mb-8">
+      <h2 className="text-xl font-semibold mb-2">グループ会社</h2>
+      <p><strong>名称:</strong> 株式会社クフラス</p>
+      <p><strong>設立:</strong> 2020年4月</p>
+      <p><strong>資本金:</strong> 500万円</p>
+      <p><strong>所在地:</strong> 007-0825 北海道札幌市東区東雁来5条1丁目4-26</p>
+      <p><strong>TEL:</strong> 011-780-1010　<strong>FAX:</strong> 011-780-1011</p>
+      <p><a href="http://www.kufuras.co.jp" className="text-blue-600 hover:underline">www.kufuras.co.jp</a></p>
+    </div>
+
+    <div>
+      <h2 className="text-xl font-semibold mb-2">主な取引先</h2>
+      <ul className="list-disc pl-5">
+        <li>函館米穀</li>
+        <li>アクティブ</li>
+        <li>明治屋</li>
+        <li>松田商店</li>
+        <li>萩原商店</li>
+        <li>JA</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
     </>
    )
  }

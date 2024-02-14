@@ -4,20 +4,17 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200">
-
-    
       <div class="pt-12 lg:pt-16">
         <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div class="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
             <div class="col-span-full lg:col-span-2">
-              
               <div class="mb-4 lg:-mt-2">
                 <a href="/" class="text-black-800 inline-flex items-center gap-2 text-xl font-bold md:text-2xl" aria-label="logo">
                   <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-5 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M96 0V47L48 94H0V47L48 0H96Z" />
                   </svg>
     
-                  FARMひまわり
+                  高橋Agriculture・Farm
                 </a>
               </div>
               
@@ -59,7 +56,13 @@ const Footer = () => {
     
               <nav class="flex flex-col gap-4">
                 <div>
-                  <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">主な作物</a>
+                  <Link to="/rice" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">らんこし米</Link>
+                </div>         
+                <div>
+                  <Link to="/wheat" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">春・秋麦</Link>
+                </div>         
+                <div>
+                  <Link to="/soy" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">黒大豆</Link>
                 </div>         
               </nav>
             </div>
