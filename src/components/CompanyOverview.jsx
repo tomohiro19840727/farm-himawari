@@ -139,7 +139,9 @@
       <p><strong>代表者:</strong> 代表取締役 合田 高丸</p>
       <p><strong>設立:</strong> 1971年4月</p>
       <p><strong>資本金:</strong> 500万円</p>
-      <p><strong>所在地:</strong> 007-0825 北海道札幌市東区東雁来5条1丁目4-26</p>
+      <p><strong>所在地:</strong>北海道磯谷郡蘭越町字初田172-1
+                           <br/> ※JR函館本線/蘭越駅より車で18分程度
+</p>
       <p><strong>TEL:</strong> 011-789-0300　<strong>FAX:</strong> 011-789-0301</p>
       <p><strong>スタッフ数:</strong> 10名</p>
       <p><strong>決算期:</strong> 2月</p>

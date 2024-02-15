@@ -31,7 +31,7 @@ const MobileCareers = () => {
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row mb-20">
             <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-              <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-4xl">(株)FARMひまわり <br />採用情報</h1>
+              <h1 className="text-4xl font-bold text-black sm:text-5xl md:text-4xl">(株)高橋Agriculture・Farm <br />採用情報</h1>
               <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl  md:text-2xl">正社員・期間限定アルバイト募集</h2>
               <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
                 私たちは、お米(水稲)、大豆、麦などの農作業全般を行っております。自然と共に生き、食卓に笑顔を届けるやりがいのある仕事を、一緒にしませんか？
