@@ -107,7 +107,7 @@ const Contact = () => {
         </div>
   
         <div class="flex items-center justify-between sm:col-span-2">
-          <button class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">送信</button>
+          <button  type="submit" class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">送信</button>
         </div>
         {isSubmitted && (
                   <p className="text-green-400 text-lg text-bold">
