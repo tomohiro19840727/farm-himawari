@@ -31,6 +31,7 @@ const Contact = () => {
           setName('');
           setEmail('');
           setMessage('');
+          alert('ありがとうございます。お問い合わせを受け付けました。');
         
       })
       .catch((error) => {
@@ -111,7 +112,7 @@ const Contact = () => {
         </div>
         {isSubmitted && (
                   <p className="text-green-400 text-lg text-bold">
-                  ありがとうございます。お問合せ内容を受け付けました。
+                  ありがとうございます。 <br/>お問合せ内容を受け付けました。
                   </p>
                   )}
       </form>     
