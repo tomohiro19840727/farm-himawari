@@ -8,6 +8,7 @@ import MobileSection from './MobileSection'
 import MobileGallery from './MobileGallery'
 import MobileHelp from './MobileHelp'
 import Products from './Products'
+import MobileProducts from './MobileProducts'
 
 const Home = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -54,8 +55,11 @@ const Home = () => {
           )  : 
           (
             <Gallery  /> )}
-
-          <Products />  
+    {isMobile ? ( 
+          <MobileProducts />
+          )  : 
+          (
+            <Products  /> )}  
     
     {isMobile ? ( 
           <MobileHelp />

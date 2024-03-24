@@ -63,7 +63,7 @@ const MobileSection = () => {
         <div className="video-onecontainer">
           <video src={videoBg1} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
-            <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-gray-300 sm:text-5xl md:text-5xl animate-delayed-tracking-in-expand">Welcome to</h1>
+            <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-black sm:text-5xl md:text-5xl animate-delayed-tracking-in-expand">Welcome to</h1>
             <h2 ref={aboutRef2} className="text-2xl font-bold text-green-300    animate-delayed-tracking-in-expand">高橋Agriculture・Farm</h2>
           </div>
         </div>
