@@ -9,7 +9,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import { Link } from 'react-router-dom';
  
  const Wheat = () => {
   const aboutRef2 = useRef(null);

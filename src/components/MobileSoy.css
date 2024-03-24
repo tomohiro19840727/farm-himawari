@@ -1,0 +1,47 @@
+@keyframes delayed-tracking-in-expand {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: .6;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-delayed-tracking-in-expand {
+  animation: delayed-tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+}
+
+.video-container7 {
+  position: relative;
+  width: 100%; /* ビデオコンテナの幅 */
+  height: 40vh; /* ビデオコンテナの高さをビューポートの高さに設定 */
+  overflow: hidden;
+  opacity: 60%;
+}
+
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover; /* ビデオがコンテナを覆うように設定 */
+}
+
+
+.heading {
+  font-size: 4rem; /* 見出しのフォントサイズ */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sub-heading {
+  font-size: 3
+}

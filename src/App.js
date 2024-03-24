@@ -13,6 +13,9 @@ import MobileCareers from './components/MobileCareers';
 import Rice from './components/Rice';
 import Wheat from './components/Wheat';
 import Soy from './components/Soy';
+import MobileRice from './components/MobileRice';
+import MobileWheat from './components/MobileWheat';
+import MobileSoy from './components/MobileSoy';
 
 
 
@@ -66,6 +69,9 @@ function App() {
     <Route  path="/contact" element={<Contact />} />
     <Route  path="/menu" element={<Menu />} />
     <Route  path="/rice" element={<Rice />} />
+    <Route  path="/mobilerice" element={<MobileRice />} />
+    <Route  path="/mobilewheat" element={<MobileWheat />} />
+    <Route  path="/mobilesoy" element={<MobileSoy />} />
     <Route  path="/wheat" element={<Wheat />} />
     <Route  path="/soy" element={<Soy />} />
    
