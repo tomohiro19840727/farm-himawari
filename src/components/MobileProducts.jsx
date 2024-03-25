@@ -35,7 +35,7 @@ const MobileProducts = () => {
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
     <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4">
       
-      <div>
+      <div className='fade'>
         <div class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
           <video src={videoBg1} autoPlay muted loop playsInline className="video" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
@@ -52,7 +52,7 @@ const MobileProducts = () => {
       </Link>
      
       
-      <div>
+      <div className='fade'>
         <div class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
           <video src={videoBg2} autoPlay muted loop playsInline className="video" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
@@ -69,7 +69,7 @@ const MobileProducts = () => {
       <span class="relative text-white">詳細はこちら</span>
       </Link>
 
-      <div>
+      <div className='fade'>
         <div class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
           <img src="/img/27972838_s.jpg" autoPlay muted loop playsInline className="video" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 

@@ -65,7 +65,7 @@ const MobileRice = () => {
         </div>
 
         <div class="flex flex-col fade">
-          <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">蘭越町、ここは一年を通して自然の恵みが溢れる地。冬の豪雪が春になると溶け出し、ニセコ連峰からの清らかな水が田を潤します。<br/><br/>この水は、天然のミネラルをたっぷり含んでおり、米作りには欠かせない恵みの源です。</p>
+          <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl mt-5">蘭越町、ここは一年を通して自然の恵みが溢れる地。冬の豪雪が春になると溶け出し、ニセコ連峰からの清らかな水が田を潤します。<br/><br/>この水は、天然のミネラルをたっぷり含んでおり、米作りには欠かせない恵みの源です。</p>
         </div>
       </div>
        
@@ -75,7 +75,7 @@ const MobileRice = () => {
         </div>
 
         <div class="flex flex-col">
-          <div class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">この米を口にすれば、心はすぐにこの大地の一部と繋がり、食卓は笑顔と生命の喜びで溢れます。<br/><br/>雪解けがもたらすミネラルと愛情を吸い上げた私たちの米は、あなたを蘭越町の豊かな自然へと誘います。</div>
+          <div class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl mt-5">この米を口にすれば、心はすぐにこの大地の一部と繋がり、食卓は笑顔と生命の喜びで溢れます。<br/><br/>雪解けがもたらすミネラルと愛情を吸い上げた私たちの米は、あなたを蘭越町の豊かな自然へと誘います。</div>
         </div>
       </div>
       
@@ -83,6 +83,28 @@ const MobileRice = () => {
   </div>
 </div>
 
+<div class="grid gap-6 sm:grid-cols-2 mb-10"> 
+      <a href="#" class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+        <img src="/img/gohan151214238662_TP_V4.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+
+        <div class="relative flex flex-col">
+          
+          <span class="text-lg font-semibold text-white lg:text-xl">蘭越米 ゆめぴりか</span>
+        </div>
+      </a>
+      
+      <div  class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+        <img src="/img/ELFAIMG_1632_TP_V4.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+
+        <div class="relative flex flex-col">
+          <span class="text-lg font-semibold text-white lg:text-xl">蘭越米 ななつぼし</span>
+        </div>
+      </div>   
+    </div>
 
     <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8 fade">
       <div class="flex flex-col overflow-hidden rounded-lg border bg-white">
