@@ -54,8 +54,8 @@ const MobileSoy = () => {
         </div>
 
         <div class="flex flex-col">
-          <h1 class="text-gray-500">黒大豆栽培の極意<br/> 当社の徹底した管理と適応力</h1>
-          <p  class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"> 当社では、黒大豆の栽培において、気温や日長に敏感な大豆の性質を十分に理解し、適切な管理を行っています。<br/>20～25度のやや暖かい気温でよく育つ大豆は、極端な暑さや寒さに弱いため、冷涼地では5月下旬から6月中旬に種まきを行うことで、晩霜害を避けつつ最適な生育環境を提供しています。<br/>また、種まきが遅れた場合は、植え付け間隔を狭くするなどの対策を講じています。</p>
+          <h1 class="font-bold text-xl mb-3">黒大豆栽培の極意<br/> 当社の徹底した管理と適応力</h1>
+          <p  class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"> 当社では、黒大豆の栽培において、気温や日長に敏感な大豆の性質を十分に理解し、適切な管理を行っています。<br/>黒大豆は、極端な暑さや寒さに弱いため、5月下旬から6月中旬に種まきを行うことで、晩霜害を避けつつ最適な生育環境を提供しています。</p>
         </div>
       </div>
       
@@ -67,8 +67,8 @@ const MobileSoy = () => {
         </div>
 
         <div class="flex flex-col">
-          <h2 class="text-gray-500">黒大豆栽培の秘訣 <br/> 当社の徹底した品種選定と管理</h2>
-          <p  class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">当社の黒大豆栽培は、品種選定から栽培カレンダーの活用に至るまで、細心の注意を払った管理が特徴です。<br/>地域や栽培時期に合わせた適切な品種を選び、日長や温度に対する反応を考慮しています。生育時期ごとの農業作業や病害虫の防除を計画的に行い、黒大豆の品質と安定生産を目標としています。</p>
+          <h2 class="font-bold text-xl mb-3">黒大豆栽培の秘訣 <br/> 当社の徹底した品種選定と管理</h2>
+          <p  class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">当社の黒大豆栽培は、品種選定から栽培カレンダーの活用に至るまで、細心の注意を払った管理が特徴です。<br/>生育時期ごとの農業作業や病害虫の防除を計画的に行い、黒大豆の品質と安定生産を目標としています。</p>
         </div>
       </div>
       
@@ -80,8 +80,8 @@ const MobileSoy = () => {
         </div>
 
         <div class="flex flex-col">
-          <h2 class="text-gray-500">北海道産黒大豆<br/> 栄養豊富で美しい黒の輝き</h2>
-          <p href="#" class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">北海道産の黒大豆は、健康と美容に良いイソフラボンやアントシアニンを豊富に含み、高たんぱくで低脂肪、さらに食物繊維もたっぷりという、栄養価の高い食材です。表面には光沢があり、見た目にも美しい黒豆で、お料理を彩ります。<br/>特に調理時の煮崩れが少ないのが一番の特徴で、豆を柔らかくする際に蒸しても皮浮きが少なく、見た目も味も美しいお豆が炊けます。</p>
+          <h2 class="font-bold text-xl mb-3t">北海道産黒大豆<br/> 栄養豊富で美しい黒の輝き</h2>
+          <p href="#" class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">北海道産の黒大豆は、健康と美容に良いイソフラボンやアントシアニンを豊富に含み、高たんぱくで低脂肪、さらに食物繊維もたっぷりという、栄養価の高い食材です。<br/>特に豆を柔らかくする際に蒸しても皮浮きが少なく、見た目も味も美しいお豆が炊けます。</p>
         </div>
       </div>
       
@@ -98,7 +98,7 @@ const MobileSoy = () => {
     <div class="mb-10 md:mb-16">
       <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">収穫の効率化と品質保持</h2>
 
-      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg font-bold">当社では、黒大豆の収穫を効率化し、品質を保持するために最新のコンバインを活用しています。この先進的な収穫機械は、黒大豆を傷つけることなく収穫し、<br/>その豊かな風味と栄養価を保ちながら、さまざまな料理の原料として加工されます。<br/>当社の黒大豆栽培は、最新技術の導入により、<br/>安定した品質と供給を実現しています。</p>
+      <p class="mx-auto max-w-screen-md text-center  md:text-lg font-bold">当社では、黒大豆の収穫を効率化し、品質を保持するために最新のコンバインを活用しています。<br/>当社の黒大豆栽培は、最新技術の導入により、<br/>安定した品質と供給を実現しています。</p>
     </div>
     
 
