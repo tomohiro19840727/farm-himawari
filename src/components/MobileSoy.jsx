@@ -54,7 +54,7 @@ const MobileSoy = () => {
         </div>
 
         <div class="flex flex-col">
-          <h1 class="font-bold text-xl mb-3">黒大豆栽培の極意<br/> 当社の徹底した管理と適応力</h1>
+          <h1 class="font-bold text-xl mb-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg">黒大豆栽培の極意<br/> 当社の徹底した管理と適応力</h1>
           <p  class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"> 当社では、黒大豆の栽培において、気温や日長に敏感な大豆の性質を十分に理解し、適切な管理を行っています。<br/>黒大豆は、極端な暑さや寒さに弱いため、5月下旬から6月中旬に種まきを行うことで、晩霜害を避けつつ最適な生育環境を提供しています。</p>
         </div>
       </div>
@@ -67,7 +67,7 @@ const MobileSoy = () => {
         </div>
 
         <div class="flex flex-col">
-          <h2 class="font-bold text-xl mb-3">黒大豆栽培の秘訣 <br/> 当社の徹底した品種選定と管理</h2>
+          <h2 class="font-bold text-xl mb-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg">黒大豆栽培の秘訣 <br/> 当社の徹底した品種選定と管理</h2>
           <p  class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">当社の黒大豆栽培は、品種選定から栽培カレンダーの活用に至るまで、細心の注意を払った管理が特徴です。<br/>生育時期ごとの農業作業や病害虫の防除を計画的に行い、黒大豆の品質と安定生産を目標としています。</p>
         </div>
       </div>
@@ -79,10 +79,16 @@ const MobileSoy = () => {
           <img src="/img/27972838_s.jpg" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </div>
 
-        <div class="flex flex-col">
+        {/* <div class="flex flex-col">
           <h2 class="font-bold text-xl mb-3t">北海道産黒大豆<br/> 栄養豊富で美しい黒の輝き</h2>
           <p href="#" class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">北海道産の黒大豆は、健康と美容に良いイソフラボンやアントシアニンを豊富に含み、高たんぱくで低脂肪、さらに食物繊維もたっぷりという、栄養価の高い食材です。<br/>特に豆を柔らかくする際に蒸しても皮浮きが少なく、見た目も味も美しいお豆が炊けます。</p>
-        </div>
+        </div> */}
+
+<div class="flex flex-col">
+  <h2 class="font-bold text-xl mb-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg">北海道産黒大豆<br/> 栄養豊富で美しい黒の輝き</h2>
+  <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">北海道産の黒大豆は、健康と美容に良いイソフラボンやアントシアニンを豊富に含み、高たんぱくで低脂肪、さらに食物繊維もたっぷりという、栄養価の高い食材です。<br/>特に豆を柔らかくする際に蒸しても皮浮きが少なく、見た目も味も美しいお豆が炊けます。</p>
+</div>
+
       </div>
       
     </div>

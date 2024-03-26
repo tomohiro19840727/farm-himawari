@@ -24,6 +24,7 @@ const Gallery = () => {
     }, []);
 
   return (
+    
     <>
     <div class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-12 mt-20 fade">
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8 fade">
@@ -47,7 +48,6 @@ const Gallery = () => {
           <img src="/img/kissaten27jpegsrgb__92A0484-e_TP_V4.jpg" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
   
           <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-  
           <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">稲刈り</span>
         </a>
         

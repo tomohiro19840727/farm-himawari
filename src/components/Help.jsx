@@ -35,7 +35,7 @@ const Help = () => {
   
         
         <div class="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-3/5">
-          <h2 class="mb-4 text-xl font-bold text-gray-800 md:text-2xl lg:text-4xl">『私たちと一緒にIT農業を始めませんか？』</h2>
+          <h2 class="mb-4 text-xl font-bold text-gray-800 md:text-2xl lg:text-4xl">『私たちと一緒に農業を始めませんか？』</h2>
   
           <p class="mb-8 max-w-md text-gray-600 font-bold">
 

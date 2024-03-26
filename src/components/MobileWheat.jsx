@@ -56,7 +56,7 @@ const MobileWheat = () => {
         </a>
 
         <div class="flex flex-col">
-        <span class=" font-bold text-xl mb-3">「春よ恋」<br/> もちもちの極み、春の小麦粉</span>
+        <span class="font-bold text-xl mb-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg">「春よ恋」<br/> もちもちの極み、春の小麦粉</span>
           <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl mb-10">当社の春小麦は、春の穏やかな気候と肥沃な土壌を活用し、小麦の生育に最適な環境を提供しています。春小麦の成長過程では、適切な水分管理と害虫・病気対策を徹底し、小麦の健全な成長を促進しています。</p>
         </div>
       </div>
@@ -69,8 +69,8 @@ const MobileWheat = () => {
         </a>
 
         <div class="flex flex-col">
-          <span class="font-bold text-xl">『きたほなみ』<br/>秋小麦の収量と品質向上 </span>
-          <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl mb-10"><br/>当社では、秋小麦の栽培において、土壌の特性や生育状況を十分に考慮しながら、追肥のタイミングと施肥量を適切に管理し、高品質な小麦の生産を目指しています。</p>
+          <span class="font-bold text-xl mb-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg">『きたほなみ』<br/>秋小麦の収量と品質向上 </span>
+          <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl mb-10">当社では、秋小麦の栽培において、土壌の特性や生育状況を十分に考慮しながら、追肥のタイミングと施肥量を適切に管理し、高品質な小麦の生産を目指しています。</p>
         </div>
       </div>
       
@@ -82,8 +82,8 @@ const MobileWheat = () => {
         </a>
 
         <div class="flex flex-col">
-          <span class="font-bold text-xl mb-3">国産小麦の誇り<br/> ふっくらもちもちの極上食感</span>
-          <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">当社の「春よ恋」は、国産小麦らしい味わいともちもちとした食感が特徴で、たんぱく含有量も多いため、パンやピザなどに適しています。<br/>私たちは、この「春よ恋」を通じて、北海道の豊かな自然と農業の技術を活かした、高品質な製品をお届けすることを目指しています。</p>
+          <span class="font-bold text-xl mb-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg">国産小麦の誇り<br/> ふっくらもちもちの極上食感</span>
+          <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl mb-10">当社の「春よ恋」は、国産小麦らしい味わいともちもちとした食感が特徴で、たんぱく含有量も多いため、パンやピザなどに適しています。<br/>私たちは、この「春よ恋」を通じて、北海道の豊かな自然と農業の技術を活かした、高品質な製品をお届けすることを目指しています。</p>
         </div>
       </div>
       
@@ -95,7 +95,7 @@ const MobileWheat = () => {
         </a>
 
         <div class="flex flex-col">
-          <span class="font-bold text-xl mb-3">北海道の宝石 小麦の多彩な魅力</span>
+          <h2 class="font-bold text-xl mb-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg">北海道の宝石! <br/>  小麦の多彩な魅力 </h2>
           <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl mb-10">「きたほなみ」は小麦粉の色や性質、食感も優れており、パン用、麺用、菓子用と幅広い用途で活躍します。強力粉から薄力粉まで、多様なニーズに応える「きたほなみ小麦」は、北海道の豊かな自然と農業技術が生んだ、まさに宝石のような存在です。</p>
         </div>
       </div>

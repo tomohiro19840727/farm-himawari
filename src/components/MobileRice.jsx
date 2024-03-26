@@ -47,10 +47,10 @@ const MobileRice = () => {
             </div>
     </section>
 
-    <div class="bg-white py-6 sm:py-8 lg:py-12 fade">
-  <div class="mx-auto max-w-screen-2xl px-4 md:px-8 fade">
-    <div class="mb-10 md:mb-16">
-      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-4xl">『らんこし米』</h2>
+    <div class="bg-white py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div class="mb-10 md:mb-16 fade">
+      <h2 class="mb-4 text-center text-2xl font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 py-2 px-4 rounded-lg shadow-lg md:mb-6 lg:text-4xl">『らんこし米』</h2>
 
       <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg font-bold">蘭越町で育つ米は、ただの食材にとどまらず、<br/>この地の豊かな自然、四季の移ろい、そして地域に根ざしたぬくもりが息づいています。<br/>香り高い炊きたての一粒が、<br/>あなたに蘭越町の物語を語りかけます。<br/><br/>どうぞ、この地の恵みをご堪能ください。</p>
     </div>

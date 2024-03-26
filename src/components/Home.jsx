@@ -9,6 +9,7 @@ import MobileGallery from './MobileGallery'
 import MobileHelp from './MobileHelp'
 import Products from './Products'
 import MobileProducts from './MobileProducts'
+import MobileFooter from './MobileFooter'
 
 const Home = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -66,7 +67,12 @@ const Home = () => {
           )  : 
           (
             <Help  /> )}
-     <Footer />
+    {isMobile ? ( 
+          <MobileFooter />
+          )  : 
+          (
+            <Footer  /> )}
+     
     </div>
     </>
   )
