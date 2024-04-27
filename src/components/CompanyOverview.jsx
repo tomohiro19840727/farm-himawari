@@ -137,7 +137,7 @@
       <h2 className="text-xl font-semibold mb-2">会社概要</h2>
       <p><strong>名称:</strong> 株式会社 高橋Agriculture・Farm</p>
       <p><strong>代表者:</strong> 代表取締役 合田 高丸</p>
-      <p><strong>設立:</strong> 1971年4月</p>
+      <p><strong>設立:</strong> 2013年4月</p>
       <p><strong>資本金:</strong> 500万円</p>
       <p><strong>所在地:</strong>北海道磯谷郡蘭越町字初田172-1
                            <br/> ※JR函館本線/蘭越駅より車で18分程度

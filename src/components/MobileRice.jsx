@@ -9,8 +9,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 
-
-
 const MobileRice = () => {
     const aboutRef2 = useRef(null);
 
