@@ -52,15 +52,15 @@ const Home = () => {
             <Section  /> )}
     </div>
     {isMobile ? ( 
-          <MobileGallery />
-          )  : 
-          (
-            <Gallery  /> )}
-    {isMobile ? ( 
-          <MobileProducts />
-          )  : 
-          (
-            <Products  /> )}  
+      <MobileProducts />
+    )  : 
+    (
+      <Products  /> )}  
+      {isMobile ? ( 
+            <MobileGallery />
+            )  : 
+            (
+              <Gallery  /> )}
     
     {isMobile ? ( 
           <MobileHelp />
