@@ -41,7 +41,7 @@
   left: 30%;
   transform: translate(-50%, -50%);
   z-index: 10; /* テキストをビデオの上に表示 */
-  color: blue; /* テキストの色 */
+  color: black; /* テキストの色 */
   text-align: center;
 }
 

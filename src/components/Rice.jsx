@@ -1,7 +1,6 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
-import videoBg1 from "../assets/188923 (540p).mp4";
-import videoBg2 from "../assets/tractor_-_43044 (720p).mp4";
+import videoBg1 from "../assets/IMG_7783.MOV";
 import "./Rice.css"
 import  {Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -126,13 +125,6 @@ const Rice = () => {
        </div>
      </div>
    </div>
-
-    <div className="relative hidden bg-gray-200 sm:block sm:w-1/3 lg:w-1/2 fade"
-            style={{
-              clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%)' // 斜めの切り取りを適用
-            }}>
-            <video src={videoBg2} autoPlay muted loop playsInline className="video" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-          </div>
 
           <div className="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12">
      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
