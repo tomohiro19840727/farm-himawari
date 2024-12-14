@@ -78,6 +78,7 @@
 //   )
 // }
 
+
 // export default Gallery
 
 import React, { useEffect } from 'react';

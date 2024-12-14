@@ -11,7 +11,7 @@ const Header = () => {
               <path d="M96 0V47L48 94H0V47L48 0H96Z" />
             </svg>
     
-            <h1 className='font-bold' >高橋Agriculture・Farm</h1>
+            <h1 className='font-bold' >FARM ひまわり</h1>
           </a>
           
           <nav class="hidden gap-12 lg:flex">
