@@ -4,12 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Header from './components/Header';
 import Home from './components/Home';
 import CompanyOverview from './components/CompanyOverview';
-import Careers from './components/Careers';
 import Contact from './components/Contact';
 import { useMediaQuery } from 'react-responsive';
 import MobileHeader from './components/MobileHeader';
 import Menu from './components/Menu';
-import MobileCareers from './components/MobileCareers';
 import Rice from './components/Rice';
 import Wheat from './components/Wheat';
 import Soy from './components/Soy';
@@ -57,15 +55,6 @@ function App() {
   <Routes>
     <Route  path="/companyoverview" element={<CompanyOverview />} />
     <Route  path="/" element={<Home />} />
-    <Route  path="/careers" element={
-      <div>
-     {isMobile ? ( 
-       <MobileCareers />
-       )  : 
-       (
-         <Careers /> )}
-         </div>
-    } />
     <Route  path="/contact" element={<Contact />} />
     <Route  path="/menu" element={<Menu />} />
     <Route  path="/rice" element={<Rice />} />

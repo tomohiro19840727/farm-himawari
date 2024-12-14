@@ -135,7 +135,7 @@
     <h1 className="text-2xl font-bold mb-4">企業情報</h1>
     <div className="mb-8">
       <h2 className="text-xl font-semibold mb-2">会社概要</h2>
-      <p><strong>名称:</strong> 株式会社 高橋Agriculture・Farm</p>
+      <p><strong>名称:</strong> 株式会社 FARM ひまわり</p>
       <p><strong>代表者:</strong> 代表取締役 合田 高丸</p>
       <p><strong>設立:</strong> 2013年4月</p>
       <p><strong>資本金:</strong> 500万円</p>
@@ -155,12 +155,11 @@
     <div className='fade'>
       <h2 className="text-xl font-semibold mb-2">主な取引先</h2>
       <ul className="list-disc pl-5">
-        <li>函館米穀</li>
+        <li>函館米穀株式会社</li>
         <li>ライズ商事</li>
-        <li>明治屋</li>
-        <li>松田商店</li>
-        <li>萩原商店</li>
-        <li>JA</li>
+        <li>株式会社 山松松田商店</li>
+        <li>株式会社 萩原敬造商店</li>
+        <li>JAようてい 蘭越支所</li>
       </ul>
     </div>
   </div>

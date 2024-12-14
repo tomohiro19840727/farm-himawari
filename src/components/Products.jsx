@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
-import videoBg1 from "../assets/43368_1280x720.mp4";
-import videoBg2 from "../assets/grain_-_121876 (720p) (1).mp4";
-import { Link, useNavigate } from 'react-router-dom';
+
+import { Link } from 'react-router-dom';
 
 
 const Products = () => {
@@ -37,7 +36,7 @@ const Products = () => {
             style={{
               clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0% 100%)' // 斜めの切り取りを適用
             }}>
-            <video src={videoBg1} autoPlay muted loop playsInline className="video" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/img/ELFAIMG_1632_TP_V4.jpg" alt="背景画像" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           
           <div className="flex w-full items-center p-4 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10">
@@ -86,7 +85,7 @@ const Products = () => {
             style={{
               clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%)' // 斜めの切り取りを適用
             }}>
-            <video src={videoBg2} autoPlay muted loop playsInline className="video" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/img/OHT92_ichimennomugibatake_TP_V4.jpg" alt="背景画像" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
            
         </div>
@@ -101,7 +100,7 @@ const Products = () => {
             style={{
               clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0% 100%)' // 斜めの切り取りを適用
             }}>
-             <img src="/img/27972838_s.jpg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+             <img src="/img/27972838_s.jpg" loading="lazy" alt="背景画像" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </div>
           
           <div className="flex w-full items-center p-4 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10 fade">

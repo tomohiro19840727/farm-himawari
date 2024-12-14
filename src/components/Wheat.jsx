@@ -98,7 +98,7 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
             style={{
               clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0% 100%)' // 斜めの切り取りを適用
             }}>
-            <video src={videoBg3} autoPlay muted loop playsInline className="video" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/img/sunset-4342426_1280.jpg" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           
           <div className="flex w-full items-center p-4 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10">
@@ -133,7 +133,7 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
             style={{
               clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%)' // 斜めの切り取りを適用
             }}>
-            <video src={videoBg1} autoPlay muted loop playsInline className="video" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/img/wheat-3506758_640.jpg" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
            
         </div>
