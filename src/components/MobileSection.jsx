@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
 import videoBg1 from "../assets/fields_-_41093 (540p).mp4";
-import videoBg2 from "../assets/tractor_-_43044 (720p).mp4";
+// import videoBg2 from "../assets/tractor_-_43044 (720p).mp4";
 import videoBg3 from "../assets/fertilizer_-_114347 (720p).mp4";
 import "./MobileSection.css"
 import  {Swiper, SwiperSlide } from 'swiper/react';
@@ -64,11 +64,11 @@ const MobileSection = () => {
           <video src={videoBg1} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
             <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-black sm:text-5xl md:text-5xl animate-delayed-tracking-in-expand">Welcome to</h1>
-            <h2 ref={aboutRef2} className="text-2xl font-bold text-white    animate-delayed-tracking-in-expand">高橋Agriculture・Farm</h2>
+            <h2 ref={aboutRef2} className="text-2xl font-bold text-white    animate-delayed-tracking-in-expand">FARM ひまわり</h2>
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      {/* <SwiperSlide>
         <div className="video-onecontainer">
           <video src={videoBg2} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
@@ -76,13 +76,13 @@ const MobileSection = () => {
             <h2 ref={aboutRef2} className="text-2xl font-bold text-white  animate-delayed-tracking-in-expand">高橋Agriculture・Farm</h2>
           </div>
         </div>
-      </SwiperSlide>
+      </SwiperSlide> */}
       <SwiperSlide>
         <div className="video-onecontainer">
           <video src={videoBg3} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
             <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-black animate-delayed-tracking-in-expand">Welcome to</h1>
-            <h2 ref={aboutRef2} className="text-2xl font-bold text-white  animate-delayed-tracking-in-expand">高橋Agriculture・Farm</h2>
+            <h2 ref={aboutRef2} className="text-2xl font-bold text-white  animate-delayed-tracking-in-expand">FARM ひまわり</h2>
           </div>
         </div>
       </SwiperSlide>
