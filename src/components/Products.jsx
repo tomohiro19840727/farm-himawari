@@ -44,7 +44,7 @@ const Products = () => {
             <div className="flex w-full flex-col items-center sm:block">
               <div className="mb-4 sm:mb-8">
                 <h2 className="text-center text-xl font-bold text-indigo-500 sm:text-left sm:text-2xl lg:text-3xl">ニセコの恵みが育む、<br/> 蘭越町の逸品『らんこし米』</h2>
-                <p className="text-center text-gray-500 sm:text-left mt-5 font-bold">清流日本一に輝く尻別川の流域に広がる肥沃な土壌と、雄大なニセコ連峰から湧き出る天然のミネラルをたっぷり含んだ清流が、良質でおいしい「らんこし米」を育てています</p>
+                <p className="text-center text-gray-500 sm:text-left mt-5 font-bold">清流日本一に輝く尻別川の流域に広がる肥沃な土壌と、雄大なニセコ連峰から湧き出る天然のミネラルをたっぷり含んだ清流が、良質でおいしい「らんこし米」を育てていま</p>
               </div>
               <Link to="/rice" class="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50">
               <span class="absolute left-0 block w-full h-0 transition-all bg-indigo-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
