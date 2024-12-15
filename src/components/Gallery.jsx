@@ -109,12 +109,10 @@ const Gallery = () => {
     <div className="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-12 mt-20 fade">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8 fade">
         <h2 className="text-center font-bold text-gray-800 text-3xl mb-10">
-          デジタルの革新が土地を目覚めさせ、命の息吹をデータの脈動と共鳴させる!
+        次世代を担うスマート農業への挑戦
         </h2>
         <p className="text-center mb-20 font-serif text-xl font-bold">
-          先端技術を農業に取り入れることで、伝統的な米作りに新しい息吹を吹き込んでいます。
-          <br />
-          私たちの米は、最新技術と伝統的な農法が融合し、品質と味に妥協はありません!
+        私たちの会社は、最新の技術やデータ活用を通じて効率化と高品質な生産を実現し、<br/> 環境に配慮しながら持続可能な農業を目指します。<br/>また、次世代を担う農業のモデルケースとなるべく、挑戦を続けていきます。
         </p>
 
         <div className="mb-4 grid grid-cols-2 gap-4 sm:grid-cols-3 md:mb-8 md:grid-cols-4 md:gap-6 xl:gap-8 fade">

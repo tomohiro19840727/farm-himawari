@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useRef } from 'react'
 import videoBg1 from "../assets/fields_-_41093 (540p).mp4";
 // import videoBg2 from "../assets/tractor_-_43044 (720p).mp4";
-import videoBg3 from "../assets/fertilizer_-_114347 (720p).mp4";
+import videoBg3 from "../assets/IMG_7783.MOV";
 import "./Section.css"
 import  {Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

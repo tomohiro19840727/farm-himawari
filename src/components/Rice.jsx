@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
-import videoBg1 from "../assets/IMG_7783.MOV";
+import videoBg1 from "../assets/IMG_7780.MOV";
 import "./Rice.css"
 import  {Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -108,7 +108,7 @@ const Rice = () => {
            <div className="flex w-full flex-col items-center sm:block">
              <div className="mb-4 sm:mb-8">
                <h2 className="text-center text-xl font-bold text-indigo-500 sm:text-left sm:text-2xl lg:text-3xl"></h2>
-               <p className="text-center text-gray-500 sm:text-left mt-5 font-bold text-2xl">蘭越町、ここは一年を通して自然の恵みが溢れる地。冬の豪雪が春になると溶け出し、ニセコ連峰からの清らかな水が田を潤します。<br/><br/>この水は、天然のミネラルをたっぷり含んでおり、米作りには欠かせない恵みの源です。</p>
+               <p className="text-center text-gray-500 sm:text-left mt-5 font-bold text-2xl">私たちは「アルスプラウト」というシステムを導入しました。これは、スマホやタブレットを使って遠隔からハウス内の温度管理や開閉作業を自動化・操作できる、IT特化型のクラウドシステムです。見やすい画面で設定やモニタリングが可能で、LINEやメールで警報通知も受け取れます。このシステムを活用し、効率的に稲のハウス栽培を行っています。</p>
              </div>
              
            </div>
@@ -119,14 +119,14 @@ const Rice = () => {
            style={{
              clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%)' // 斜めの切り取りを適用
            }}>
-           <img src="/img/FK+_IMG0364_TP_V4.jpg" autoPlay muted loop playsInline className="video" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+           <img src="/img/スクリーンショット 2024-12-14 18.23.04.png" class="absolute inset-0 h-full w-full object-cover object-top" />
          </div>
           
        </div>
      </div>
    </div>
 
-          <div className="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12">
+    <div className="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12">
      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
        <div className="flex overflow-hidden rounded-lg bg-gray-100">
          
@@ -134,7 +134,7 @@ const Rice = () => {
            style={{
              clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0% 100%)' // 斜めの切り取りを適用
            }}>
-            <img src="/img/JUNtexture1123936_TP_V4.jpg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+            <img src="/img/15D8BEE2-1A16-4637-BC01-EF7C8D20DFAD.jpeg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-bottom transition duration-200 group-hover:scale-110" />
          </div>
          
          <div className="flex w-full items-center p-4 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10 fade">
@@ -142,18 +142,97 @@ const Rice = () => {
              <div className="mb-4 sm:mb-8">
                <h2 className="text-center text-xl font-bold text-indigo-500 sm:text-left sm:text-2xl lg:text-3xl">
                </h2>
-               <p className="text-center text-gray-500 sm:text-left font-bold mt-5 text-2xl">この米を口にすれば、心はすぐにこの大地の一部と繋がり、食卓は笑顔と生命の喜びで溢れます。<br/><br/>雪解けがもたらすミネラルと愛情を吸い上げた私たちの米は、あなたを蘭越町の豊かな自然へと誘います。
+               <p className="text-center text-gray-500 sm:text-left font-bold mt-5 text-2xl">適切な温湿度管理など、細やかな設定を施すことも可能です。「たくさんハウスがあるため、環境計測システムの内気象ノードを３台導入しました。また異常動作などを、クラウドからの警報メールとして受け取ることができるため、万が一の際にも安心です。
               </p>
              </div>
            </div>
          </div>
        </div>
      </div>
+
+     <div className="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12 fade">
+     <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+       <div className="flex overflow-hidden rounded-lg bg-gray-100">
+
+         {/* テキストコンテナを先に配置 */}
+         <div className="flex w-full items-center p-4 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10">
+           <div className="flex w-full flex-col items-center sm:block">
+             <div className="mb-4 sm:mb-8">
+               <h2 className="text-center text-xl font-bold text-indigo-500 sm:text-left sm:text-2xl lg:text-3xl"></h2>
+               <p className="text-center text-gray-500 sm:text-left mt-5 font-bold text-2xl">私たちは高橋製品の「ボグボール」というブロードキャスターを導入しました。GPS機能を搭載しており、肥料を均一に散布できるだけでなく、作物や土地の状況に応じて量を自動調整するスピード連動や可変施肥機能も備えています。これにより、効率的で無駄のない肥料散布が可能になり、作業の負担を大幅に軽減しています。</p>
+             </div>
+             
+           </div>
+         </div>
+
+         {/* 動画コンテナを後に配置 */}
+         <div className="relative hidden bg-gray-200 sm:block sm:w-1/3 lg:w-1/2"
+           style={{
+             clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%)' // 斜めの切り取りを適用
+           }}>
+           <img src="/img/IMG_7411.jpg" class="absolute inset-0 h-full w-full object-cover object-center" />
+         </div>
+          
+       </div>
+     </div>
+   </div>
+
+   <div className="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12">
+     <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+       <div className="flex overflow-hidden rounded-lg bg-gray-100">
+         
+         <div className="relative hidden bg-gray-200 sm:block sm:w-1/3 lg:w-1/2"
+           style={{
+             clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0% 100%)' // 斜めの切り取りを適用
+           }}>
+            <img src="/img/スクリーンショット 2024-12-14 19.18.00.png" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover" />
+         </div>
+         
+         <div className="flex w-full items-center p-4 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10 fade">
+           <div className="flex w-full flex-col items-center sm:block">
+             <div className="mb-4 sm:mb-8">
+               <h2 className="text-center text-xl font-bold text-indigo-500 sm:text-left sm:text-2xl lg:text-3xl">
+               </h2>
+               <p className="text-center text-gray-500 sm:text-left font-bold mt-5 text-2xl">『ワタラス』を導入することで水管理の自動化・デジタル化・スマート化により、クラウド技術を活用して省力化や見える化、遠くにいても水位や水温を確認でき、遠隔操作で水の出し入れを行うことが可能になりました。
+              </p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div className="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12 fade">
+     <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+       <div className="flex overflow-hidden rounded-lg bg-gray-100">
+
+         {/* テキストコンテナを先に配置 */}
+         <div className="flex w-full items-center p-4 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10">
+           <div className="flex w-full flex-col items-center sm:block">
+             <div className="mb-4 sm:mb-8">
+               <h2 className="text-center text-xl font-bold text-indigo-500 sm:text-left sm:text-2xl lg:text-3xl"></h2>
+               <p className="text-center text-gray-500 sm:text-left mt-5 font-bold text-2xl">私たちは、田植え機にGPSを導入しました。このシステムにより、田植え作業の精度が格段に向上しました。直線を正確に植えることができるため、ムラや隙間が減り、苗の成長が均一になります。また、作業効率も大幅に向上し、従来よりも短時間で広範囲の田植えが可能です。</p>
+             </div>
+             
+           </div>
+         </div>
+
+         {/* 動画コンテナを後に配置 */}
+         <div className="relative hidden bg-gray-200 sm:block sm:w-1/3 lg:w-1/2"
+           style={{
+             clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%)' // 斜めの切り取りを適用
+           }}>
+           <img src="/img/8150E62D-4143-4274-82DC-821B1CB7ADDC.jpeg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover" />
+         </div>
+          
+       </div>
+     </div>
+   </div>
+
+
+   
+
      <div class="bg-bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12 fade">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-    
-  
-
     <div class="grid gap-6 sm:grid-cols-2"> 
       <a href="#" class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
         <img src="/img/gohan151214238662_TP_V4.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
@@ -178,14 +257,15 @@ const Rice = () => {
     </div>
   </div>
   </div>
-   </div> 
+          </div> 
+          </div> 
     
 
     <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8 fade">
       
       <div class="flex flex-col overflow-hidden rounded-lg border bg-white">
         <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
-          <img src="/img/mitte82028_TP_V4.jpg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src="/img/スクリーンショット 2024-12-15 15.31.37.png" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </a>
 
         <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
@@ -193,12 +273,7 @@ const Rice = () => {
             <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600"> 私たちの水田管理</a>
           </h2>
 
-          <p class="mb-8 text-gray-500 font-bold">一面に広がる当社の緑の稲穂は、私たちの緻密な管理と情熱の証です。<br/>地域の気候と土壌の特性を深く理解し、水の管理から害虫対策まで、細部にわたるこだわりを持っています。このような徹底した管理が、安全で美味しいお米を育てる土台となっています。</p>
-
-          <div class="mt-auto flex items-end justify-between">
-            <div class="flex items-center gap-2">
-            </div>
-          </div>
+          <p class="mb-8 text-gray-500 font-bold">私たちは、水田管理の効率化と精度向上のために、軽量で機敏な農業ドローン「T25」を導入しています。このドローンは折りたたみ式で、一人でも簡単に操作できる設計です。小型で離着陸が容易なため、狭い圃場でも活躍します。</p>
         </div>
       </div>
       
