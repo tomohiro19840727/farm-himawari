@@ -1,8 +1,6 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
 import videoBg1 from "../assets/fields_-_41093 (540p).mp4";
-// import videoBg2 from "../assets/tractor_-_43044 (720p).mp4";
-import videoBg3 from "../assets/fertilizer_-_114347 (720p).mp4";
 import "./MobileSection.css"
 import  {Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -46,20 +44,21 @@ const MobileSection = () => {
 
   return (
 <section class="h-full relative flex flex-4 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg ">
-<Swiper modules={[Navigation, Pagination, Autoplay]}
-  spaceBetween={30}
-  centeredSlides={true}
-  autoplay={{
-    delay: 7000,
-    disableOnInteraction: false,
-  }}
-  pagination={{
-    clickable: true,
-  }}
-  navigation={true}
-  className="mySwiper absolute inset-0 h-full w-full"
->
-<SwiperSlide>
+      <Swiper modules={[Navigation, Pagination, Autoplay]}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 7000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        className="mySwiper absolute inset-0 h-full w-full"
+      >
+
+    <SwiperSlide>
         <div className="video-onecontainer">
           <video src={videoBg1} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
@@ -68,18 +67,10 @@ const MobileSection = () => {
           </div>
         </div>
       </SwiperSlide>
-      {/* <SwiperSlide>
-        <div className="video-onecontainer">
-          <video src={videoBg2} autoPlay muted loop playsInline className="video" />
-          <div className="text-container">
-            <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-white  animate-delayed-tracking-in-expand">Welcome to</h1>
-            <h2 ref={aboutRef2} className="text-2xl font-bold text-white  animate-delayed-tracking-in-expand">高橋Agriculture・Farm</h2>
-          </div>
-        </div>
-      </SwiperSlide> */}
+     
       <SwiperSlide>
         <div className="video-onecontainer">
-          <video src={videoBg3} autoPlay muted loop playsInline className="video" />
+          <video src={videoBg1} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
             <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-black animate-delayed-tracking-in-expand">Welcome to</h1>
             <h2 ref={aboutRef2} className="text-2xl font-bold text-white  animate-delayed-tracking-in-expand">FARM ひまわり</h2>

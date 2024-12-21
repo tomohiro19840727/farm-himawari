@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
-import videoBg1 from "../assets/188923 (540p).mp4";
-import videoBg2 from "../assets/tractor_-_43044 (720p).mp4";
+import videoBg1 from "../assets/127734 (1080p).mp4";
+
 import "./MobileRice.css"
 import 'swiper/css';
 import 'swiper/css/navigation';

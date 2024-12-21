@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import videoBg1 from "../assets/43368_1280x720.mp4";
-import videoBg2 from "../assets/grain_-_121876 (720p) (1).mp4";
+
+import videoBg2 from "../assets/127734 (1080p).mp4";
 import { Link } from 'react-router-dom';
 
 
@@ -37,7 +37,7 @@ const MobileProducts = () => {
       
       <div className='fade'>
         <div class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <video src={videoBg1} autoPlay muted loop playsInline className="video" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <video src={videoBg2} autoPlay muted loop playsInline className="video" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <h1 class="text-black mb-3 font-bold">蘭越町の逸品『らんこし米』</h1>

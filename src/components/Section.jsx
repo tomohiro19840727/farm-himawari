@@ -98,8 +98,8 @@ const Section = () => {
           </div>
         </div>
       </SwiperSlide>
-</Swiper>
-</section>
+    </Swiper>
+    </section>
 
 
   )

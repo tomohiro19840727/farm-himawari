@@ -40,7 +40,8 @@ function App() {
     return () => {
       observer.disconnect();
     };
-  }, []);
+  }, []);   
+
 
   return (
     <>

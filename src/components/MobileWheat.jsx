@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
-import videoBg1 from "../assets/wheat_-_17285 (540p).mp4";
-import videoBg3 from "../assets/wheat_-_37655 (1080p).mp4";
+import videoBg1 from "../assets/127734 (1080p).mp4";
+import videoBg3 from "../assets/127734 (1080p).mp4";
 import "./MobileWheat.css"
 import 'swiper/css';
 import 'swiper/css/navigation';

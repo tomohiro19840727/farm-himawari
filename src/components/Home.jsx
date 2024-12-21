@@ -39,28 +39,28 @@ const Home = () => {
       };
     }, []);
   
-
-  return (
-    <>
+    
+    return (
+      <>
     <div className='fade bg-gradient-to-r from-transparent via-green-200 to-yellow-200 fade'>
 
      <div class="mx-auto max-w-screen-2xl px-4 md:px-8 fade">
      {isMobile ? ( 
-          <MobileSection />
-          )  : 
-          (
-            <Section  /> )}
+       <MobileSection />
+      )  : 
+      (
+        <Section  /> )}
     </div>
+        {isMobile ? ( 
+              <MobileGallery />
+              )  : 
+              (
+                <Gallery  /> )}
     {isMobile ? ( 
       <MobileProducts />
     )  : 
     (
       <Products  /> )}  
-      {isMobile ? ( 
-            <MobileGallery />
-            )  : 
-            (
-              <Gallery  /> )}
     
     {isMobile ? ( 
           <MobileHelp />

@@ -1,7 +1,6 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
 import videoBg1 from "../assets/127734 (1080p).mp4";
-import videoBg2 from "../assets/tractor_-_43044 (720p).mp4";
 import "./Soy.css"
 import  {Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -9,7 +8,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import { Link } from 'react-router-dom';
 
 const Soy = () => {
  const aboutRef2 = useRef(null);
