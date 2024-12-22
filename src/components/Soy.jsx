@@ -8,86 +8,67 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import Footer from './Footer';
 
 const Soy = () => {
- const aboutRef2 = useRef(null);
 
  useEffect(() => {
-  window.scrollTo(0, 0);
-}, []);
-
- useEffect(() => {
-  const targets = document.getElementsByClassName("fade");
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-      } else {
-          entry.target.classList.remove("active");
-        }
-      });
-    });
-
-    Array.from(targets).forEach((target) => {
-      observer.observe(target);
-    });
-
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
-
-useEffect(() => {
-  const options = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.5, // テキストが50%以上表示された時に反応する
-  };
-
-  const callback = (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-delayed-tracking-in-expand');
-      } else {
-        entry.target.classList.remove('animate-delayed-tracking-in-expand');
-      }
-    });
-  };
-
-  const observer = new IntersectionObserver(callback, options);
-  observer.observe(aboutRef2.current);
+     window.scrollTo(0, 0);
+   }, []);
+ 
+   useEffect(() => {
+     const targets = document.getElementsByClassName("fade");
+     const observer = new IntersectionObserver((entries, observer) => {
+       entries.forEach((entry) => {
+         if (entry.isIntersecting) {
+           entry.target.classList.add("active");
+         } else {
+             entry.target.classList.remove("active");
+           }
+         });
+       });
+   
+       Array.from(targets).forEach((target) => {
+         observer.observe(target);
+       });
+   
+       return () => {
+         observer.disconnect();
+       };
+     }, []);
+ 
+ 
   
-  return () => {
-    observer.disconnect();
-  };
-}, []);
+  
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5, // テキストが50%以上表示された時に反応する
+    };
+   
+  }, []);
+ 
 
   return (
     <>
-   <section class="h-full relative flex flex-4 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg fade">
-   <Swiper modules={[Navigation, Pagination, Autoplay]}
-     spaceBetween={30}
-     centeredSlides={true}
-     autoplay={{
-       delay: 7000,
-       disableOnInteraction: false,
-     }}
-     pagination={{
-       clickable: true,
-     }}
-     navigation={true}
-     className="mySwiper absolute inset-0 h-full w-full"
-   >
-   <SwiperSlide>
-           <div className="video-container">
-             <video src={videoBg1} autoPlay muted loop playsInline className="video" />
-             <div className="text-container3">    
-               <h2 ref={aboutRef2} className="text-3xl font-bold sm:text-3xl md:text-6xl    animate-delayed-tracking-in-expand">漆黒の巨粒</h2>
-             </div>
-           </div>
-         </SwiperSlide>
-   </Swiper>
-   </section>
+    <div class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 pb-6 sm:pb-8 lg:pb-12 fade">
+  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <section class="min-h-96 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-20 xl:py-48">
+      
+      <img src="/img/soybean-field-1610754_1280.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
+      
+      <div class="relative flex flex-col items-center p-4 sm:max-w-xl">
+        <h1 class="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">Taste the Legacy</h1>
+        <h1 class="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-4xl">黒大豆の誇り</h1>
+
+        <div class="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
+        </div>
+      </div>
+      
+    </section>
+  </div>
+</div>
    
    <div className="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12 fade">
      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
@@ -97,7 +78,7 @@ useEffect(() => {
            style={{
              clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0% 100%)' // 斜めの切り取りを適用
            }}>
-           <img src="/img/soybean-field-1610754_1280.jpg" className="video" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+           <img src="/img/IMG_7472.jpg" className="video" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
          </div>
          
          <div className="flex w-full items-center p-4 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10">
@@ -173,7 +154,7 @@ useEffect(() => {
     <div class="mb-10 md:mb-16">
       <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">収穫の効率化と品質保持</h2>
 
-      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg font-bold">当社では、黒大豆の収穫を効率化し、品質を保持するために<br/>最新のコンバインを活用しています。この先進的な収穫機械は、黒大豆を傷つけることなく収穫し、その豊かな風味と栄養価を保ちながら、さまざまな料理の原料として加工されます。<br/>当社の黒大豆栽培は、最新技術の導入により、安定した品質と供給を実現しています。</p>
+      <p class="mx-auto max-w-screen-md text-center md:text-lg font-bold">当社では、黒大豆の収穫を効率化し、品質を保持するために<br/>最新のコンバインを活用しています。この先進的な収穫機械は、黒大豆を傷つけることなく収穫し、その豊かな風味と栄養価を保ちながら、さまざまな料理の原料として加工されます。</p>
     </div>
     
 
@@ -208,6 +189,8 @@ useEffect(() => {
   </div>
   </div>
    </div> 
+
+   <Footer />
              </>
    
   )

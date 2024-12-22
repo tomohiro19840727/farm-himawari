@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Footer from './Footer';
 
  
  const Wheat = () => {
@@ -49,14 +50,15 @@ import 'swiper/css/scrollbar';
    return (
      <>
 
-<div class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 pb-6 sm:pb-8 lg:pb-12">
+<div class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 pb-6 sm:pb-8 lg:pb-12 fade">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
     <section class="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
       
       <div class="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-        <h1 class="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">Revolutionary way to build the web</h1>
+        <h1 class="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">Fields of Innovation！</h1>
+        <h1 class="mb-8 text-2xl font-bold text-black sm:text-5xl md:mb-12 md:text-4xl">小麦の新たな挑戦！！</h1>
 
-        <p class="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random.</p>
+        <p class="mb-8 leading-relaxed font-bold md:mb-12 lg:w-4/5 xl:text-lg">私たちは、伝統的な小麦栽培に最先端の技術をプラスし、GPSトラクターやドローンを駆使した精密農業で、環境に優しい持続可能な未来を目指しています。</p>
 
         <div class="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
         </div>
@@ -127,14 +129,14 @@ import 'swiper/css/scrollbar';
     <div class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
     
-    <div class="mb-10 md:mb-16">
+    <div class="mb-10 md:mb-16 fade">
       <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">小麦の収穫っていつがベスト？</h2>
 
       <p class="mx-auto font-bold max-w-screen-md text-center md:text-lg">小麦の収穫は、秋に種をまいて、翌年の夏（6月～8月）に行われます。<br/>地域や気候によっても少し違いますが、<br/>穂がしっかりと熟す「成熟期」から4日くらいが収穫のゴールデンタイムです。<br/>その期を私たちは逃しません！</p>
     </div>
     
 
-    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8 fade">
       
       <a href="#" class="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96">
         <img src="/img/IMG_8074.JPG" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
@@ -156,7 +158,7 @@ import 'swiper/css/scrollbar';
 </div>
     </div>
 
-
+   <Footer />
               </>
     
    )

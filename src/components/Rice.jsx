@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import Footer from './Footer';
 
 
 
@@ -313,6 +314,8 @@ const Rice = () => {
     </div>
   </div>
 </div>
+
+ <Footer />
       </>
   )
 }

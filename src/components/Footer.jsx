@@ -80,7 +80,7 @@ const Footer = () => {
                   <Link to="/rice" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">らんこし米</Link>
                 </div>         
                 <div>
-                  <Link to="/wheat" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">春・秋麦</Link>
+                  <Link to="/wheat" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">小麦</Link>
                 </div>         
                 <div>
                   <Link to="/soy" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">黒大豆</Link>
@@ -94,6 +94,9 @@ const Footer = () => {
               <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Company</div>
     
               <nav class="flex flex-col gap-4">
+                <div>
+                  <Link to="/machine" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">機械の詳細</Link>
+                </div>
                 <div>
                   <Link to="/companyoverview" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">会社概要</Link>
                 </div>
