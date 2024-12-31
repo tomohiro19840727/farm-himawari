@@ -15,6 +15,7 @@ import MobileRice from './components/MobileRice';
 import MobileWheat from './components/MobileWheat';
 import MobileSoy from './components/MobileSoy';
 import Machine from './components/Machine';
+import MobileMachine from './components/MobileMachine';
 
 
 
@@ -66,6 +67,7 @@ function App() {
     <Route  path="/wheat" element={<Wheat />} />
     <Route  path="/soy" element={<Soy />} />
     <Route  path="/machine" element={<Machine />} />
+    <Route  path="/mobilemachine" element={<MobileMachine />} />
    
    
   </Routes>

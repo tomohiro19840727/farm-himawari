@@ -13,25 +13,25 @@ const Menu = () => {
       </div>
       <div class="grid gap-6 rounded-lg bg-indigo-100 p-6 mt-20">
         <div class="text-indigo-500 text-center text-2xl">
-        <Link to="/companyoverview">らんこし米</Link>
+        <Link to="/mobilerice">らんこし米</Link>
         </div>
       </div>
       <div class="grid gap-6 rounded-lg bg-indigo-100 p-6 mt-20">
         <div class="text-indigo-500 text-center text-2xl">
-        <Link to="/companyoverview">春・秋麦</Link>
+        <Link to="/mobilewheat">春・秋麦</Link>
         </div>
       </div>
       <div class="grid gap-6 rounded-lg bg-indigo-100 p-6 mt-20">
         <div class="text-indigo-500 text-center text-2xl">
-        <Link to="/companyoverview">黒大豆</Link>
+        <Link to="/mobilesoy">黒大豆</Link>
+        </div>
+      </div>
+      <div class="grid gap-6 rounded-lg bg-indigo-100 p-6 mt-20">
+        <div class="text-indigo-500 text-center text-2xl">
+        <Link to="/mobilemachine">機械の詳細</Link>
         </div>
       </div>
 
-      <div class="grid gap-6 rounded-lg bg-indigo-100 p-6 mt-20">
-        <div class="text-indigo-500 text-center text-2xl">
-        <Link to="/careers">採用情報</Link>
-        </div>
-      </div>
 
       <div class="grid gap-6 rounded-lg bg-indigo-100 p-6 mt-20">
         <div class="text-indigo-500 text-center text-2xl">

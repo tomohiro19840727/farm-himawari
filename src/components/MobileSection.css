@@ -35,13 +35,13 @@
   object-fit: cover; /* ビデオがコンテナを覆うように設定 */
 }
 
-.text-container {
+.text-onecontainer {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10; /* テキストをビデオの上に表示 */
-  color: white; /* テキストの色 */
+  color: black; /* テキストの色 */
   text-align: center;
 }
 

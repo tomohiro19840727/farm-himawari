@@ -55,7 +55,7 @@
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
       
       <div class="mb-10 md:mb-16 fade">
-        <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">海も山も川もある美しい町の農場です！</h2>
+        <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">海も山も川もある<br/>美しい町の農場です！</h2>
   
         <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg font-bold">北海道南西部、函館本線が町の中央を通る蘭越町(らんこしちょう)に私たちの農場、<br/>「株式会社FARM ひまわり」はあります。<br/>町全体に自然があふれ、海・山・川すべての恵みが豊かなことが蘭越町の特徴です！！</p>
       </div>
