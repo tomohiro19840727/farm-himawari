@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Footer from './Footer'
+import MobileFooter from './MobileFooter';
 
 const MobileMachine = () => {
 
@@ -222,7 +222,7 @@ const MobileMachine = () => {
   </div>
 </div>
     
- <Footer />
+ <MobileFooter />
     
     </>
     )
