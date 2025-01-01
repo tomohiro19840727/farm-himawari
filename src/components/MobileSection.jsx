@@ -100,8 +100,8 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 
 const MobileSection = () => {
-  const aboutRef1 = useRef(null);
-  const aboutRef2 = useRef(null);
+  // const aboutRef1 = useRef(null);
+  // const aboutRef2 = useRef(null);
 
   useEffect(() => {
     const targets = document.getElementsByClassName("fade");
@@ -141,13 +141,13 @@ const MobileSection = () => {
      });
    };
  
-   const observer = new IntersectionObserver(callback, options);
-   observer.observe(aboutRef1.current);
-   observer.observe(aboutRef2.current);
+  //  const observer = new IntersectionObserver(callback, options);
+  //  observer.observe(aboutRef1.current);
+  //  observer.observe(aboutRef2.current);
    
-   return () => {
-     observer.disconnect();
-   };
+  //  return () => {
+  //    observer.disconnect();
+  //  };
  }, []);
 
   return (
@@ -169,8 +169,8 @@ const MobileSection = () => {
         <div className="video-onecontainer">
           <video src={videoBg1} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
-            <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-black sm:text-5xl md:text-5xl animate-delayed-tracking-in-expand">Welcome to</h1>
-            <h2 ref={aboutRef2} className="text-2xl font-bold text-white sm:text-4xl md:text-6xl    animate-delayed-tracking-in-expand">FARM ひまわり</h2>
+            <h1  className="mb-10 text-2xl font-bold text-black sm:text-5xl md:text-5xl">Welcome to</h1>
+            <h2  className="text-2xl font-bold text-white sm:text-4xl md:text-6xl">FARM ひまわり</h2>
           </div>
         </div>
       </SwiperSlide>
@@ -179,8 +179,8 @@ const MobileSection = () => {
         <div className="video-onecontainer">
           <video src={videoBg3} autoPlay muted loop playsInline className="video" />
           <div className="text-container">
-            <h1 ref={aboutRef1} className="mb-10 text-2xl font-bold text-black sm:text-5xl md:text-5xl animate-delayed-tracking-in-expand">Welcome to</h1>
-            <h2 ref={aboutRef2} className="text-2xl font-bold text-black sm:text-4xl md:text-6xl animate-delayed-tracking-in-expand">FARMひまわり</h2>
+            <h1  className="mb-10 text-2xl font-bold text-black sm:text-5xl md:text-5xl">Welcome to</h1>
+            <h2  className="text-2xl font-bold text-black sm:text-4xl md:text-6xl">FARMひまわり</h2>
           </div>
         </div>
       </SwiperSlide>
