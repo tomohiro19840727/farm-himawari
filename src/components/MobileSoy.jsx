@@ -224,7 +224,7 @@ const MobileSoy = () => {
     <div class="grid gap-x-4 gap-y-6 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4">
       
       <div class="fade">
-        <div class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg h-56">
+        <div class="group mb-2 block overflow-hidden rounded-lg bg-gray-100 shadow-lg h-56">
           <img src="/img/IMG_7472.jpg" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </div>
 
@@ -236,7 +236,7 @@ const MobileSoy = () => {
       </div>
       
       <div>
-        <div class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg mt-10 fade h-56">
+        <div class="group mb-2 block overflow-hidden rounded-lg bg-gray-100 shadow-lg mt-10 fade h-56">
           <img src="/img/bean-leaf-2610454_1280.jpg" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </div>
 
@@ -248,7 +248,7 @@ const MobileSoy = () => {
       
 
       <div class="fade">
-        <div class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg h-56 mt-10">
+        <div class="group mb-2 block overflow-hidden rounded-lg bg-gray-100 shadow-lg h-56 mt-10">
           <img src="/img/27972838_s.jpg" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </div>
 

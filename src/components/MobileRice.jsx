@@ -8,7 +8,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import Footer from './Footer';
 import MobileFooter from './MobileFooter';
 
 
@@ -148,6 +147,16 @@ const MobileRice = () => {
         </div>
       </div>
       
+
+      <div>
+        <div class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg mt-10 fade">
+          <img src="/img/8150E62D-4143-4274-82DC-821B1CB7ADDC.jpeg" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </div>
+
+        <div class="flex flex-col mt-5 fade">
+          <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">私たちは、田植え機にGPSを導入しました。このシステムにより、田植え作業の精度が格段に向上しました。直線を正確に植えることができるため、ムラや隙間が減り、苗の成長が均一になります。</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

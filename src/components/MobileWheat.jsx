@@ -82,7 +82,7 @@ useEffect(() => {
     <div class="grid gap-x-4 gap-y-6 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4">
       
       <div class="fade">
-        <div class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg h-56">
+        <div class="group mb-2 block h-56 overflow-hidden rounded-lg bg-gray-100 shadow-lg">
           <img src="/img/sunset-4342426_1280.jpg" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </div>
 
@@ -94,7 +94,7 @@ useEffect(() => {
       </div>
       
       <div>
-        <div class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg mt-10 fade h-56">
+        <div class="group mb-2 block overflow-hidden rounded-lg bg-gray-100 shadow-lg mt-10 fade h-56">
           <img src="/img/wheat-3506758_640.jpg" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </div>
 
