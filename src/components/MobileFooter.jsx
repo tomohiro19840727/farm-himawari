@@ -201,13 +201,13 @@ const MobileFooter = () => {
     
               <nav class="flex flex-col gap-4">
                 <div>
-                  <Link to="/rice" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">らんこし米</Link>
+                  <Link to="/mobilerice" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">らんこし米</Link>
                 </div>         
                 <div>
-                  <Link to="/wheat" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">小麦</Link>
+                  <Link to="/mobilewheat" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">小麦</Link>
                 </div>         
                 <div>
-                  <Link to="/soy" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">黒大豆</Link>
+                  <Link to="/mobilesoy" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">黒大豆</Link>
                 </div>         
               </nav>
             </div>
