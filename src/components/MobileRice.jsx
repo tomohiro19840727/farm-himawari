@@ -135,8 +135,6 @@ const MobileRice = () => {
         </div>
       </div>
       
-
-      
       <div>
         <div class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg mt-10 fade">
           <img src="/img/スクリーンショット 2024-12-14 19.18.00.png" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
