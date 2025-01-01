@@ -152,7 +152,7 @@ const MobileSection = () => {
 
   return (
 <section class="h-full relative flex flex-4 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg fade">
-<Swiper modules={[Navigation, Pagination, Autoplay]}
+<Swiper modules={[Navigation, Pagination ]}
   spaceBetween={30}
   centeredSlides={true}
   autoplay={{
@@ -167,21 +167,21 @@ const MobileSection = () => {
 >
 <SwiperSlide>
         <div className="video-onecontainer">
-          <video src={videoBg1} autoPlay muted loop playsInline className="video" />
-          <div className="text-container">
+          <video src={videoBg3} autoPlay muted loop playsInline className="video" />
+          {/* <div className="text-container">
             <h1  className="mb-10 text-2xl font-bold text-black sm:text-5xl md:text-5xl">Welcome to</h1>
             <h2  className="text-2xl font-bold text-white sm:text-4xl md:text-6xl">FARM ひまわり</h2>
-          </div>
+          </div> */}
         </div>
       </SwiperSlide>
     
       <SwiperSlide>
         <div className="video-onecontainer">
-          <video src={videoBg3} autoPlay muted loop playsInline className="video" />
-          <div className="text-container">
+          <video src={videoBg1} autoPlay muted loop playsInline className="video" />
+          {/* <div className="text-container">
             <h1  className="mb-10 text-2xl font-bold text-black sm:text-5xl md:text-5xl">Welcome to</h1>
             <h2  className="text-2xl font-bold text-black sm:text-4xl md:text-6xl">FARMひまわり</h2>
-          </div>
+          </div> */}
         </div>
       </SwiperSlide>
     </Swiper>
