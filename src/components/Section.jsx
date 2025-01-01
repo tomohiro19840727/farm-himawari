@@ -66,7 +66,7 @@ const Section = () => {
 
   return (
 <section class="h-full relative flex flex-4 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg fade">
-<Swiper modules={[Navigation, Pagination, Autoplay]}
+<Swiper modules={[Navigation, Pagination]}
   spaceBetween={30}
   centeredSlides={true}
   autoplay={{
