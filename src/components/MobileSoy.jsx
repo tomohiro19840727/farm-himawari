@@ -101,8 +101,7 @@ const MobileSoy = () => {
           <img src="/img/27972838_s.jpg" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </div>
 
-        <div class="flex flex-col mt-5 fade">
-        
+        <div class="flex flex-col mt-5 fade">      
         <h2 className="text-center text-xl font-bold text-indigo-500 sm:text-left sm:text-2xl lg:text-3xl">北海道産黒大豆<br/> 栄養豊富で美しい黒の輝き</h2>
           <p class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl mt-5"> 北海道産の黒大豆は、健康と美容に良いイソフラボンやアントシアニンを豊富に含み、高たんぱくで低脂肪、さらに食物繊維もたっぷりという、栄養価の高い食材です。</p>
         </div>
@@ -123,7 +122,7 @@ const MobileSoy = () => {
 
     <div class="grid gap-6 fade mt-10">
       
-      <a href="#" class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+      <div class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
         <img src="/img/IMG_7206.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
         <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
@@ -132,11 +131,11 @@ const MobileSoy = () => {
           <span class="text-gray-300">ヤンマー</span>
           <span class="text-lg font-semibold text-white lg:text-xl">大豆専用コンバイン</span>
         </div>
-      </a>
+      </div>
       
 
       
-      <a href="#" class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+      <div class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
         <img src="/img/IMG_7207.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
         <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
@@ -145,7 +144,7 @@ const MobileSoy = () => {
           <span class="text-gray-300">収穫後</span>
           <span class="text-lg font-semibold text-white lg:text-xl">収穫直後の黒大豆</span>
         </div>
-      </a>
+      </div>
       
       
     </div>
