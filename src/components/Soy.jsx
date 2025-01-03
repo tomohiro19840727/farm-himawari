@@ -160,29 +160,25 @@ const Soy = () => {
 
     <div class="grid gap-6 sm:grid-cols-2 fade">
       
-      <a href="#" class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-        <img src="/img/IMG_7206.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+      <div class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+        <img src="/img/IMG_7206.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
 
         <div class="relative flex flex-col">
-          <span class="text-gray-300">ヤンマー</span>
+          <span class="text-white">ヤンマー</span>
           <span class="text-lg font-semibold text-white lg:text-xl">大豆専用コンバイン</span>
         </div>
-      </a>
+      </div>
       
 
       
-      <a href="#" class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-        <img src="/img/IMG_7207.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+      <div class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+        <img src="/img/IMG_7207.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
 
         <div class="relative flex flex-col">
-          <span class="text-gray-300">収穫後</span>
+          <span class="text-white">収穫後</span>
           <span class="text-lg font-semibold text-white lg:text-xl">収穫直後の黒大豆</span>
         </div>
-      </a>
+      </div>
       
       
     </div>

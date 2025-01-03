@@ -235,26 +235,20 @@ const Rice = () => {
      <div class="bg-bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12 fade">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
     <div class="grid gap-6 sm:grid-cols-2"> 
-      <a href="#" class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-        <img src="/img/gohan151214238662_TP_V4.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-
+      <div class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+        <img src="/img/gohan151214238662_TP_V4.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
         <div class="relative flex flex-col">
           
           <span class="text-lg font-semibold text-white lg:text-xl">蘭越米 ゆめぴりか</span>
         </div>
-      </a>
+      </div>
       
-      <a href="#" class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-        <img src="/img/ELFAIMG_1632_TP_V4.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-
+      <div class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+        <img src="/img/ELFAIMG_1632_TP_V4.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
         <div class="relative flex flex-col">
           <span class="text-lg font-semibold text-white lg:text-xl">蘭越米 ななつぼし</span>
         </div>
-      </a>   
+      </div>   
     </div>
   </div>
   </div>
@@ -265,13 +259,13 @@ const Rice = () => {
     <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8 fade">
       
       <div class="flex flex-col overflow-hidden rounded-lg border bg-white">
-        <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
-          <img src="/img/スクリーンショット 2024-12-15 15.31.37.png" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-        </a>
+        <div class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
+          <img src="/img/スクリーンショット 2024-12-15 15.31.37.png" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center" />
+        </div>
 
         <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
           <h2 class="mb-2 text-lg font-semibold text-gray-800">
-            <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600"> 私たちの水田管理</a>
+             私たちの水田管理
           </h2>
 
           <p class="mb-8 text-gray-500 font-bold">私たちは、水田管理の効率化と精度向上のために、軽量で機敏な農業ドローン「T25」を導入しています。このドローンは折りたたみ式で、一人でも簡単に操作できる設計です。小型で離着陸が容易なため、狭い圃場でも活躍します。</p>
@@ -281,13 +275,13 @@ const Rice = () => {
 
       
       <div class="flex flex-col overflow-hidden rounded-lg border bg-white fade">
-        <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
-          <img src="/img/kissaten27jpegsrgb__92A0497-g_TP_V4.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-        </a>
+        <div class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
+          <img src="/img/kissaten27jpegsrgb__92A0497-g_TP_V4.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center" />
+        </div>
 
         <div class="flex flex-1 flex-col p-4 sm:p-6">
           <h2 class="mb-2 text-lg font-semibold text-gray-800">
-            <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">効率と品質を追求するコンバイン作業</a>
+          効率と品質を追求するコンバイン作業
           </h2>
 
           <p class="mb-8 text-gray-500 font-bold">
@@ -299,13 +293,13 @@ const Rice = () => {
 
       
       <div class="flex flex-col overflow-hidden rounded-lg border bg-white fade">
-        <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
-          <img src="/img/kamameshiPAR50519_TP_V4.jpg" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-        </a>
+        <div  class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
+          <img src="/img/kamameshiPAR50519_TP_V4.jpg" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center" />
+        </div>
 
         <div class="flex flex-1 flex-col p-4 sm:p-6">
           <h2 class="mb-2 text-lg font-semibold text-gray-800">
-            <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">ニセコの雪解け水が育む極上の味わい</a>
+            ニセコの雪解け水が育む極上の味わい
           </h2>
 
           <p class="mb-8 text-gray-500 font-bold">当社の「らんこし米」は、はモチモチとした食感と程よい甘さを持ち、粘りが強く、美しい艶が特徴です。<br/>私たちが丹精込めて作るらんこし米は、お客様にとって特別な食卓の一品となることを願っています。</p>       

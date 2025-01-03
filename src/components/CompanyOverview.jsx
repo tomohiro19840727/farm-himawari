@@ -64,13 +64,13 @@
       <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8 fade">
        
         <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10 fade">
-          <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
+          <div class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/FK+_50A0694_TP_V4.jpg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          </a>
+          </div>
   
           <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
             <h2 class="mb-2 text-lg font-semibold text-gray-800">
-              <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">四季を通じた自然の楽園</a>
+              四季を通じた自然の楽園
             </h2>
   
             <p class="mb-8 text-gray-500 font-bold">春から秋は釣りやサーフィン、バーベキューやキャンプを。<br/>冬季はニセコ等でウィンタースポーツ等多彩なアクティビティを楽しむことができます。</p>
@@ -80,13 +80,13 @@
   
        
         <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10 fade">
-          <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
+          <div class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/IMG_7170.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          </a>
+          </div>
   
           <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
             <h2 class="mb-2 text-lg font-semibold text-gray-800">
-              <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">春から秋の農業革新</a>
+              春から秋の農業革新
             </h2>
   
             <p class="mb-8 text-gray-500 font-bold">春から秋にかけて、お米、麦、大豆を生産。大型農業機械を活用し、効率的に作業を進めています。<br/>自然の恵みをいっぱいに受け、豊かな農作物を育てています。</p>
@@ -96,13 +96,13 @@
   
        
         <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10 fade">
-          <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
+          <div class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/JUNtexture1123936_TP_V4.jpg" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          </a>
+          </div>
   
           <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
             <h2 class="mb-2 text-lg font-semibold text-gray-800">
-              <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">清流が育む質の良いお米</a>
+              清流が育む質の良いお米
             </h2>
   
             <p class="mb-8 text-gray-500 font-bold">蘭越町は冬は豪雪、夏は温暖な気候、さらにニセコ連峰から湧き出る天然のミネラルをたっぷり含んだ清流で質の良いお米が取れることで有名です。</p>
@@ -112,13 +112,13 @@
   
         
         <div class="flex flex-col overflow-hidden rounded-lg border bg-white mb-10 fade">
-          <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
+          <div class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
             <img src="/img/gori_5106134_TP_V4.jpg" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-          </a>
+          </div>
   
           <div class="flex flex-1 flex-col p-4 sm:p-6 fade">
             <h2 class="mb-2 text-lg font-semibold text-gray-800">
-              <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">待遇改善と拡大への道</a>
+              待遇改善と拡大への道
             </h2>
   
             <p class="mb-8 text-gray-500 font-bold">個人農家から法人化を行い、規模を拡大している当社。<br/>農家でありつつも、一般の会社のように今後も労働環境や待遇面の改善を随時行なっていく予定です。</p>
