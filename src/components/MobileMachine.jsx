@@ -83,30 +83,28 @@ const MobileMachine = () => {
         <div class="grid gap-x-4 gap-y-8 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4">
         
           <div>
-            <a href="#" class="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
+            <div class="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
               <img src="/img/スクリーンショット 2024-12-22 16.55.13.png" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover transition duration-200 group-hover:scale-110" />
-            </a>
+            </div>
     
             <div class="flex items-start justify-between gap-2 px-2">
               <div class="flex flex-col">
-                <a href="#" class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">アルスプラウト</a>
+                <h2 class="text-lg font-bold text-gray-800 lg:text-xl">アルスプラウト</h2>
                 <span class="text-gray-500">自動巻き上げ機</span>
-              </div>
-    
-             
+              </div>           
             </div>
           </div>
         
     
         
           <div>
-            <a href="#" class="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
+            <div class="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
               <img src="/img/IMG_8081.JPG" loading="lazy" alt="Photo by Nick Karvounis" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-            </a>
+            </div>
     
             <div class="flex items-start justify-between gap-2 px-2">
               <div class="flex flex-col">
-                <a href="#" class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">ボグボール</a>
+                <h2 class="text-lg font-bold text-gray-800 lg:text-xl">ボグボール</h2>
                 <span class="text-gray-500">セクションコントロール付</span>
               </div>
             </div>
@@ -115,13 +113,13 @@ const MobileMachine = () => {
     
        
           <div>
-            <a href="#" class="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
+            <div class="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
               <img src="/img/IMG_8082.JPG" loading="lazy" alt="Photo by Austin Wade" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-            </a>
+            </div>
     
             <div class="flex items-start justify-between gap-2 px-2">
               <div class="flex flex-col">
-                <a href="#" class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">８トントラック</a>
+                <h2 class="text-lg font-bold text-gray-800 lg:text-xl">８トントラック</h2>
                 <span class="text-gray-500">セーフティーローダー付</span>
               </div>
             </div>
@@ -130,13 +128,13 @@ const MobileMachine = () => {
     
        
           <div>
-            <a href="#" class="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
+            <div class="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
               <img src="/img/IMG_7698.JPG" loading="lazy" alt="Photo by Vladimir Fedotov" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-            </a>
+            </div>
     
             <div class="flex items-start justify-between gap-2 px-2">
               <div class="flex flex-col">
-                <a href="#" class="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">T25ドローン</a>
+                <h2 class="text-lg font-bold text-gray-800 lg:text-xl">T25ドローン</h2>
                 <span class="text-gray-500">粒剤散布装置付</span>
               </div>
             </div>
@@ -173,11 +171,6 @@ const MobileMachine = () => {
     
     <div class="bg-gradient-to-r from-transparent via-green-200 to-yellow-200 py-6 sm:py-8 lg:py-12 fade">
   <div class="mx-auto max-w-screen-xl px-4 md:px-8">
-    
-    <div class="mb-10 md:mb-16">
-    </div>
-    
-
     <div class="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:gap-x-8 lg:gap-y-12">
       
       <div>

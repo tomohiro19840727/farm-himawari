@@ -1,6 +1,5 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
-import videoBg1 from "../assets/127734 (1080p).mp4";
 import "./Soy.css"
 import  {Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
