@@ -31,10 +31,8 @@ const MobileFooter = () => {
           <div class="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
             <div class="col-span-full lg:col-span-2">
               <div class="mb-4 lg:-mt-2">
-                <a href="/" class="text-black-800 inline-flex items-center gap-2 text-xl font-bold md:text-2xl" aria-label="logo">
-                  <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-5 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M96 0V47L48 94H0V47L48 0H96Z" />
-                  </svg>
+                <a href="/" class="text-black-800 inline-flex items-center gap-2 text-xl font-bold" aria-label="logo">
+                <img src="/img/スクリーンショット 2025-01-05 15.00.30.png" class="h-auto w-8 text-indigo-500" />
                   FARM ひまわり
                 </a>
               </div>
