@@ -31,8 +31,8 @@ const Footer = () => {
           <div class="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
             <div class="col-span-full lg:col-span-2">
               <div class="mb-4 lg:-mt-2">
-                <h1 class="text-black-800 inline-flex items-center gap-2 text-xl font-bold md:text-2xl">
-                <img src="/img/スクリーンショット 2025-01-05 15.00.30.png" class="h-auto w-8 text-indigo-500" />
+                <h1 class="text-black-800 inline-flex items-center text-xl font-bold md:text-2xl">
+                <img src="/img/スクリーンショット 2025-01-05 15.00.30.png" class="h-auto w-8 text-indigo-500 mr-2" />
                   FARM
                 <h2 class="text-xl">ひまわり</h2>
                 </h1>
