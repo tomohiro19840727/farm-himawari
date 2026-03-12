@@ -171,11 +171,10 @@ const Soy = () => {
 
       
       <div class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-        <img src="/img/IMG_7207.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
+        <img src="/img/IMG_9345.JPG" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
 
         <div class="relative flex flex-col">
-          <span class="text-white">収穫後</span>
-          <span class="text-lg font-semibold text-white lg:text-xl">収穫直後の黒大豆</span>
+          <span class="text-lg font-semibold text-white lg:text-xl">収穫直前の黒大豆</span>
         </div>
       </div>
       
